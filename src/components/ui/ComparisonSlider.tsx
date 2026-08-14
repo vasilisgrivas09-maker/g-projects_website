@@ -74,6 +74,7 @@ const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
             src={beforeImage}
             alt={beforeLabel}
             fill
+            sizes="(max-width: 1024px) 100vw, 896px"
             className="w-full h-full object-cover"
             draggable={false}
           />
@@ -90,6 +91,7 @@ const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
             src={afterImage}
             alt={afterLabel}
             fill
+            sizes="(max-width: 1024px) 100vw, 896px"
             className="absolute top-0 left-0 w-full h-full object-cover max-w-none"
             draggable={false}
           />
