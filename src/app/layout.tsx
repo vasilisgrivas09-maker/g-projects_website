@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next"
 // @ts-ignore
 import "./globals.css"; // βεβαιώσου ότι υπάρχει το αρχείο globals.css
 

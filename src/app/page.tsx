@@ -4,9 +4,9 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
-import Services from "@/components/sections/Services";
 import Statement from "@/components/sections/Statement";
-import Contact from "@/components/sections/Contact"; // ΕΔΩ ΕΙΝΑΙ Η ΓΡΑΜΜΗ ΠΟΥ ΘΕΛΕΙΣ
+import Services from "@/components/sections/Services";
+import Contact from "@/components/sections/Contact";
 import ComparisonSlider from "@/components/ui/ComparisonSlider";
 
 export const metadata: Metadata = {
@@ -21,7 +21,6 @@ export default function HomePage() {
       <Hero />
       <Projects />
       <Services />
-      <Statement />
       
       <section id="contact" className="scroll-mt-20 section-padding">
         <div className="container">
