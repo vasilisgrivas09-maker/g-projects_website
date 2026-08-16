@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export default function Services() {
   const services = [
@@ -44,6 +45,7 @@ export default function Services() {
   ];
 
   return (
+    <>
     <section className="pt-24 md:pt-32 pb-20 md:pb-28 bg-[#faf8f6]">
       
       <Navbar solid={true} />
@@ -122,5 +124,7 @@ export default function Services() {
 
       </div>
     </section>
+    <Footer />
+  </>
   );
 }

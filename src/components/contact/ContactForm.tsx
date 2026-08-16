@@ -169,11 +169,11 @@ export default function ContactForm() {
                     <path d="M22 7l-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"></path>
                   </svg>
                 </span>
-                <h2 className="text-xl md:text-2xl font-bold text-gray-900 tracking-tight">Contact</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-gray-900 tracking-tight">Επικοινωνία</h2>
               </div>
               <div className="w-12 h-[3px] bg-black"></div> 
               <p className="text-[15px] text-gray-600 leading-relaxed">
-                For any additional information, send us a message and we will reply as soon as possible.
+                Στείλτε μας μήνυμα και θα σας απαντήσουμε το συντομότερο δυνατό.
               </p>
             </div>
 
@@ -223,8 +223,8 @@ export default function ContactForm() {
             {submitted ? (
               <div className="flex flex-col items-center justify-center py-16 text-center h-full bg-[#fafaf9] rounded-xl border border-green-100">
                 <div className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl mb-4 shadow-lg shadow-green-500/20">✓</div>
-                <h3 className="text-gray-900 text-xl font-semibold mb-2">Message Sent!</h3>
-                <p className="text-gray-500 text-sm mb-8">We will get back to you as soon as possible.</p>
+                <h3 className="text-gray-900 text-xl font-semibold mb-2">Το μήνυμα στάλθηκε!</h3>
+                <p className="text-gray-500 text-sm mb-8">Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</p>
                 <button 
                   onClick={handleResetForm}
                   className="bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium py-2 px-6 rounded-full transition-colors text-sm"
@@ -236,33 +236,33 @@ export default function ContactForm() {
               <form onSubmit={handleSubmit} className="flex flex-col gap-5 lg:gap-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5">
                   <div className="flex flex-col gap-1.5">
-                    <label htmlFor="name" className="text-sm font-medium text-gray-700">Name</label>
+                    <label htmlFor="name" className="text-sm font-medium text-gray-700">Όνομα</label>
                     <input 
-                      id="name" type="text" name="name" required placeholder="Your name" 
+                      id="name" type="text" name="name" required placeholder="Το όνομά σας" 
                       className="w-full px-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#c7a86b]/50 focus:border-[#c7a86b] bg-[#fcfcfc] transition-colors placeholder:text-gray-400"
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
                     <input 
-                      id="email" type="email" name="email" required placeholder="Your email" 
+                      id="email" type="email" name="email" required placeholder="Το email σας" 
                       className="w-full px-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#c7a86b]/50 focus:border-[#c7a86b] bg-[#fcfcfc] transition-colors placeholder:text-gray-400"
                     />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="phone" className="text-sm font-medium text-gray-700">Phone</label>
+                  <label htmlFor="phone" className="text-sm font-medium text-gray-700">Τηλέφωνο</label>
                   <input 
-                    id="phone" type="tel" name="phone" placeholder="Your phone" 
+                    id="phone" type="tel" name="phone" placeholder="Το τηλέφωνό σας" 
                     className="w-full px-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#c7a86b]/50 focus:border-[#c7a86b] bg-[#fcfcfc] transition-colors placeholder:text-gray-400"
                   />
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="message" className="text-sm font-medium text-gray-700">Message</label>
+                  <label htmlFor="message" className="text-sm font-medium text-gray-700">Μήνυμα</label>
                   <textarea 
-                    id="message" name="message" rows={4} placeholder="Tell us about your project..." 
+                    id="message" name="message" rows={4} placeholder="Πείτε μας για το έργο σας..." 
                     className="w-full px-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#c7a86b]/50 focus:border-[#c7a86b] bg-[#fcfcfc] transition-colors placeholder:text-gray-400 resize-none"
                   ></textarea>
                 </div>
@@ -273,7 +273,7 @@ export default function ContactForm() {
                     className="mt-1.5 w-4 h-4 border-gray-300 rounded text-[#c7a86b] focus:ring-[#c7a86b] cursor-pointer"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-500 leading-tight cursor-pointer">
-                    I agree to use my data to answer the question I sent you through the current contact form.
+                    Συμφωνώ να χρησιμοποιηθούν τα στοιχεία μου για την απάντηση στο μήνυμά μου.
                   </label>
                 </div>
 
