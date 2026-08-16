@@ -11,7 +11,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#101010] text-white/60 border-t border-[#c7a86b]/20">
+    <footer className="bg-[#101010] text-white/75 border-t border-[#c7a86b]/20">
       <div className="container px-4 sm:px-6 lg:px-8 py-14 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
           <div className="md:col-span-5">
@@ -42,9 +42,9 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-3">
-            <h4 className="text-white text-xs uppercase tracking-[0.2em] mb-4 font-semibold">
+            <p className="text-white text-xs uppercase tracking-[0.2em] mb-4 font-semibold">
               Navigation
-            </h4>
+            </p>
             <nav className="flex flex-col gap-3">
               {footerLinks.map((link) => (
                 <Link
@@ -59,9 +59,9 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-4">
-            <h4 className="text-white text-xs uppercase tracking-[0.2em] mb-4 font-semibold">
+            <p className="text-white text-xs uppercase tracking-[0.2em] mb-4 font-semibold">
               Social
-            </h4>
+            </p>
             <div className="flex gap-3">
               <a
                 href="https://instagram.com"

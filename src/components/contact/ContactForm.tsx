@@ -67,7 +67,21 @@ export default function ContactForm() {
 
   return (
     <>
-                 {/* === 1. SOCIAL PROOF (Γιατί να μας επιλέξετε) === */}
+      {/* === 1. ΕΙΣΑΓΩΓΙΚΟ HEADER === */}
+      <motion.div 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-center mb-10 max-w-2xl mx-auto px-4"
+      >
+        <h1 className="text-4xl md:text-5xl font-serif text-gray-900 mb-4 tracking-tight">Ας μιλήσουμε</h1>
+        <p className="text-gray-500 text-lg leading-relaxed">
+          Μη διστάσετε να επικοινωνήσετε. Οποιαδήποτε ιδέα, ερώτηση ή 
+          ραντεβού, είμαστε εδώ.
+        </p>
+      </motion.div>
+
+      {/* === 2. SOCIAL PROOF === */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -110,15 +124,12 @@ export default function ContactForm() {
         ].map((item, index) => (
           <motion.div 
             key={index}
-            /* Η κίνηση εμφάνισης κατά το scroll */
             transition={{ duration: 0.7, delay: index * 0.1, ease: "easeOut" }}
-            /* Hover για PC - Ακριβώς ίδιο με Services (8px πάνω, ανασηκωμένη σκιά) */
             whileHover={{ 
               y: -8, 
               boxShadow: "0px 20px 40px rgba(0,0,0,0.08)",
               transition: { duration: 0.15, type: "spring", stiffness: 300 }
             }}
-            /* Tap για PC & Mobile - Ακριβώς ίδιο με Services (92% ζουμ) */
             whileTap={{ 
               scale: 0.92, 
               y: -4,
@@ -126,28 +137,13 @@ export default function ContactForm() {
             }}
             className="bg-white p-6 md:p-8 rounded-2xl shadow-md border border-gray-100 text-center flex flex-col items-center gap-4 cursor-pointer touch-manipulation outline-none focus:outline-none focus:ring-0 ring-0"
           >
-            {/* Εικονίδιο σε χρυσό χρώμα */}
             <span className="w-14 h-14 text-[#c7a86b]">
               {item.icon}
             </span>
-            <h3 className="text-xl md:text-2xl font-semibold text-gray-900">{item.title}</h3>
+            <p className="text-xl md:text-2xl font-semibold text-gray-900">{item.title}</p>
             <p className="text-sm md:text-base text-gray-500 leading-relaxed">{item.desc}</p>
           </motion.div>
         ))}
-      </motion.div>
-
-      {/* === 2. ΕΙΣΑΓΩΓΙΚΟ HEADER === */}
-      <motion.div 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-center mb-10 max-w-2xl mx-auto px-4"
-      >
-        <h1 className="text-4xl md:text-5xl font-serif text-gray-900 mb-4 tracking-tight">Ας μιλήσουμε</h1>
-        <p className="text-gray-500 text-lg leading-relaxed">
-          Μη διστάσετε να επικοινωνήσετε. Οποιαδήποτε ιδέα, ερώτηση ή 
-          ραντεβού, είμαστε εδώ.
-        </p>
       </motion.div>
 
       {/* === 3. ΤΟ ΚΟΥΤΙ ΤΗΣ ΦΟΡΜΑΣ === */}
@@ -298,7 +294,7 @@ export default function ContactForm() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="max-w-5xl mx-auto mt-12 px-4"
       >
-        <h3 className="text-2xl font-serif text-gray-900 mb-6">Συχνές Ερωτήσεις</h3>
+        <h2 className="text-2xl font-serif text-gray-900 mb-6">Συχνές Ερωτήσεις</h2>
         <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden divide-y divide-gray-100">
           {faqData.map((item, index) => (
             <div key={index} className="p-5 md:p-6">

@@ -26,7 +26,7 @@ export default function Stats() {
               <div className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#c7a86b] mb-2">
                 {stat.value}
               </div>
-              <div className="text-white/60 text-xs md:text-sm uppercase tracking-[0.15em]">
+              <div className="text-white/80 text-xs md:text-sm uppercase tracking-[0.15em]">
                 {stat.label}
               </div>
             </motion.div>

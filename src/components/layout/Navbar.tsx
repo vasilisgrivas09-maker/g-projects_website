@@ -48,7 +48,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
                   width={56}
                   height={56}
                   className="w-full h-full object-cover"
-                  priority
+                  sizes="56px"
                 />
               </div>
               <span className="text-white font-manrope font-semibold text-sm lg:text-base tracking-widest group-hover:text-[#c7a86b] transition-colors">
