@@ -2,25 +2,18 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { featuredProjects } from '@/data/projects';
 
 const spanClasses: Record<string, string> = {
-  hero: 'col-span-1 lg:col-span-8 lg:row-span-2',
-  side: 'col-span-1 lg:col-span-4',
+  hero: 'lg:col-span-8 lg:row-span-2',
+  side: 'lg:col-span-4',
 };
 
 export default function Projects() {
   return (
-    <section id="work" className="section-padding bg-[#f5f5f2] scroll-mt-24">
-      <div className="container">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="section-head"
-        >
+    <section id="work" className="py-16 lg:py-28 bg-[#f5f5f2] scroll-mt-24">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-8 lg:mb-16 flex flex-col lg:flex-row justify-between items-start gap-6 lg:gap-8">
           <div>
             <p className="kicker flex items-center gap-3">
               <span className="w-6 h-px bg-[#c7a86b]" />
@@ -34,25 +27,17 @@ export default function Projects() {
             Κάθε χώρος είναι μια μοναδική ιστορία — από το αρχικό σχέδιο μέχρι
             την τελική παράδοση.
           </p>
-        </motion.div>
+        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 lg:auto-rows-[260px] gap-3 lg:gap-4">
+        <div className="flex flex-col gap-3 lg:grid lg:grid-cols-12 lg:grid-rows-[260px_260px_260px] lg:gap-4">
           {featuredProjects.map((project, index) => {
             const span = project.span
               ? spanClasses[project.span]
-              : 'col-span-1 lg:col-span-4';
+              : 'lg:col-span-4';
             return (
-              <motion.div
+              <div
                 key={project.src}
-                initial={{ opacity: 0, y: 28 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.12 }}
-                transition={{
-                  duration: 0.55,
-                  delay: index * 0.06,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
-                className={`group relative min-w-0 overflow-hidden bg-gray-200 aspect-[4/3] lg:aspect-auto ${span}`}
+                className={`group relative w-full overflow-hidden bg-gray-200 aspect-[4/3] ${span}`}
               >
                 <Link
                   href="/projects"
@@ -78,18 +63,12 @@ export default function Projects() {
                     </h3>
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             );
           })}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          className="flex justify-center mt-12 md:mt-16"
-        >
+        <div className="flex justify-center mt-12 md:mt-16">
           <Link
             href="/projects"
             className="group inline-flex items-center gap-3 bg-[#101010] hover:bg-[#c7a86b] text-white hover:text-[#101010] font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-[#c7a86b]/20 hover:-translate-y-0.5"
@@ -99,7 +78,7 @@ export default function Projects() {
               ↗
             </span>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
