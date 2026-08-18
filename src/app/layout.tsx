@@ -7,6 +7,7 @@ const manrope = Manrope({
   subsets: ["latin", "greek"],
   variable: "--font-manrope",
   display: "swap",
+  preload: true,
 });
 
 const ebGaramond = EB_Garamond({
@@ -15,6 +16,7 @@ const ebGaramond = EB_Garamond({
   variable: "--font-serif",
   display: "swap",
   style: ["normal", "italic"],
+  preload: false,
 });
 
 import { SITE_URL } from "@/data/site";
@@ -53,13 +55,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="el" className={`${manrope.variable} ${ebGaramond.variable}`}>
+    <html lang="el" className={`${manrope.variable} ${ebGaramond.variable}`} data-scroll-behavior="smooth">
       <head>
         <link
           rel="preload"
           as="image"
-          href="/images/hero.webp"
-          media="(max-width: 768px)"
+          href="/images/hero-mobile.webp"
+          type="image/webp"
+          media="(max-width: 767px)"
           fetchPriority="high"
         />
       </head>

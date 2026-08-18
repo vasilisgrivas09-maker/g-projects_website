@@ -1,12 +1,10 @@
-'use client';
-
-import Image from 'next/image';
-import Link from 'next/link';
-import { featuredProjects } from '@/data/projects';
+import Image from "next/image";
+import Link from "next/link";
+import { featuredProjects } from "@/data/projects";
 
 const spanClasses: Record<string, string> = {
-  hero: 'lg:col-span-8 lg:row-span-2',
-  side: 'lg:col-span-4',
+  hero: "lg:col-span-8 lg:row-span-2",
+  side: "lg:col-span-4",
 };
 
 export default function Projects() {
@@ -33,7 +31,7 @@ export default function Projects() {
           {featuredProjects.map((project, index) => {
             const span = project.span
               ? spanClasses[project.span]
-              : 'lg:col-span-4';
+              : "lg:col-span-4";
             return (
               <div
                 key={project.src}
@@ -50,7 +48,7 @@ export default function Projects() {
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                     sizes="(max-width: 1023px) 100vw, 40vw"
-                    loading={index < 2 ? 'eager' : 'lazy'}
+                    loading="lazy"
                     quality={80}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent opacity-55 group-hover:opacity-90 transition-opacity duration-500" />

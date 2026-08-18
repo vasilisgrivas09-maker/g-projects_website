@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
@@ -7,7 +8,11 @@ import Projects from "@/components/sections/Projects";
 import Statement from "@/components/sections/Statement";
 import Stats from "@/components/sections/Stats";
 import Services from "@/components/sections/Services";
-import ComparisonSlider from "@/components/ui/ComparisonSlider";
+
+const ComparisonSlider = dynamic(
+  () => import("@/components/ui/ComparisonSlider"),
+  { ssr: false }
+);
 
 export const metadata: Metadata = {
   title: {
