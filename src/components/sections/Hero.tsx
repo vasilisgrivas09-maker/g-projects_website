@@ -40,9 +40,6 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="space-y-5 sm:space-y-6"
         >
-          <p className="font-manrope font-extrabold text-white text-2xl sm:text-3xl md:text-4xl tracking-tight">
-            G Projects
-          </p>
 
           <div className="flex items-center gap-3 text-white/90 uppercase tracking-[0.22em] text-[10px] sm:text-xs">
             <span className="w-8 h-px bg-[#c7a86b]" />
@@ -59,15 +56,7 @@ export default function Hero() {
               Σχεδιάζουμε και υλοποιούμε εσωτερικούς χώρους με ακρίβεια, υλικά
               υψηλής ποιότητας και διαχρονική αισθητική.
             </p>
-            <Link
-              href="#work"
-              className="group inline-flex items-center gap-3 bg-white/10 hover:bg-[#c7a86b] backdrop-blur-sm border border-white/20 hover:border-[#c7a86b] text-white font-semibold uppercase text-xs tracking-wider py-3 px-6 rounded-full transition-all duration-300"
-            >
-              Δείτε τα έργα
-              <span className="text-lg group-hover:translate-x-0.5 group-hover:translate-y-0.5 transition-transform">
-                ↘
-              </span>
-            </Link>
+            
           </div>
         </motion.div>
       </div>

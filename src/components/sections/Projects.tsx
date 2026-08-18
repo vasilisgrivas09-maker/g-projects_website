@@ -54,24 +54,30 @@ export default function Projects() {
                 }}
                 className={`group relative overflow-hidden bg-gray-200 aspect-[4/3] sm:aspect-auto sm:min-h-[220px] md:min-h-0 md:aspect-auto ${span}`}
               >
-                <Image
-                  src={project.src}
-                  alt={project.alt}
-                  fill
-                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
-                  loading={index < 2 ? 'eager' : 'lazy'}
-                  quality={80}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent opacity-55 group-hover:opacity-90 transition-opacity duration-500" />
-                <div className="absolute inset-0 flex flex-col justify-end p-5 md:p-6">
-                  <span className="text-[#c7a86b] text-[10px] uppercase tracking-[0.2em] mb-1 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                    {project.category}
-                  </span>
-                  <h3 className="text-white font-serif text-xl md:text-2xl translate-y-1 group-hover:translate-y-0 transition-transform duration-300">
-                    {project.alt}
-                  </h3>
-                </div>
+                <Link
+                  href="/projects"
+                  className="absolute inset-0 z-10"
+                  aria-label={`Δείτε όλα τα έργα — ${project.alt}`}
+                >
+                  <Image
+                    src={project.src}
+                    alt={project.alt}
+                    fill
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
+                    loading={index < 2 ? 'eager' : 'lazy'}
+                    quality={80}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent opacity-55 group-hover:opacity-90 transition-opacity duration-500" />
+                  <div className="absolute inset-0 flex flex-col justify-end p-5 md:p-6">
+                    <span className="text-[#c7a86b] text-[10px] uppercase tracking-[0.2em] mb-1 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                      {project.category}
+                    </span>
+                    <h3 className="text-white font-serif text-xl md:text-2xl translate-y-1 group-hover:translate-y-0 transition-transform duration-300">
+                      {project.alt}
+                    </h3>
+                  </div>
+                </Link>
               </motion.div>
             );
           })}

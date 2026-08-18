@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/components/layout/Logo";
 
 const navLinks = [
   { href: "/projects", label: "Έργα" },
@@ -40,26 +40,21 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
       >
         <div className="container px-4 sm:px-6 lg:px-8 py-4 md:py-2">
           <div className="flex items-center justify-between h-16 lg:h-24">
-            <Link href="/" className="flex items-center gap-4 lg:gap-4 group">
-              <div className="w-10 h-10 lg:w-14 lg:h-14 rounded-full border border-[#c7a86b]/70 overflow-hidden bg-black flex-shrink-0">
-                <Image
-                  src="/images/g-projects-logo.webp"
-                  alt="G Projects Logo"
-                  width={56}
-                  height={56}
-                  className="w-full h-full object-cover"
-                  sizes="56px"
-                />
-              </div>
+            <Link href="/" className="flex items-center gap-3 lg:gap-4 group">
+              <Logo size="md" />
               <span className="text-white font-manrope font-semibold text-sm lg:text-base tracking-widest group-hover:text-[#c7a86b] transition-colors">
                 <span className="text-[#c7a86b] text-lg lg:text-2xl">G</span> PROJECTS
               </span>
             </Link>
 
             <button
-              className={`lg:hidden w-9 h-9 flex flex-col justify-center gap-1.5`}
+              type="button"
+              id="mobile-menu-button"
+              className="lg:hidden w-11 h-11 flex flex-col justify-center items-center gap-1.5 touch-manipulation"
               onClick={() => setIsOpen(!isOpen)}
-              aria-label="Toggle menu"
+              aria-label="Άνοιγμα μενού"
+              aria-expanded={isOpen}
+              aria-controls="mobile-nav"
             >
               <span className={`block h-0.5 bg-white transition-all duration-300 ${isOpen ? "translate-y-2 rotate-45" : ""}`} />
               <span className={`block h-0.5 bg-white transition-all duration-300 ${isOpen ? "opacity-0" : ""}`} />
@@ -80,7 +75,10 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
           </div>
 
           {/* 🟢 Το μενού κινητού */}
-          <div className={`lg:hidden overflow-hidden transition-all duration-300 ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+          <div
+            id="mobile-nav"
+            className={`lg:hidden overflow-hidden transition-all duration-300 ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
+          >
             <nav className="py-4 border-t border-[#c7a86b]/25 flex flex-col">
               
               <Link

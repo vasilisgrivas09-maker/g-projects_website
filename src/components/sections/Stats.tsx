@@ -3,15 +3,15 @@
 import { motion } from 'framer-motion';
 
 const stats = [
-  { value: '50+', label: 'Ολοκληρωμένα έργα' },
-  { value: '5+', label: 'Χρόνια εμπειρίας' },
+  { value: '250+', label: 'Ολοκληρωμένα έργα' },
+  { value: '20+', label: 'Χρόνια εμπειρίας' },
   { value: '100%', label: 'Custom κατασκευές' },
   { value: '24h', label: 'Χρόνος απόκρισης' },
 ];
 
 export default function Stats() {
   return (
-    <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-[#101010] border-y border-[#c7a86b]/20">
+    <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-[#010101]">
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {stats.map((stat, index) => (

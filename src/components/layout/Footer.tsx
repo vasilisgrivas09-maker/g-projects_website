@@ -1,7 +1,6 @@
-'use client';
-
 import Link from 'next/link';
-import Image from 'next/image';
+import Logo from '@/components/layout/Logo';
+import { PHONE, PHONE_DISPLAY, SOCIAL_LINKS } from '@/data/site';
 
 const footerLinks = [
   { href: '/projects', label: 'Έργα' },
@@ -16,15 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
           <div className="md:col-span-5">
             <Link href="/" className="inline-flex items-center gap-3 group mb-5">
-              <div className="w-10 h-10 rounded-full border border-[#c7a86b]/50 overflow-hidden bg-black">
-                <Image
-                  src="/images/g-projects-logo.webp"
-                  alt="G Projects"
-                  width={40}
-                  height={40}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <Logo size="sm" />
               <span className="font-manrope font-semibold text-sm tracking-widest group-hover:text-[#c7a86b] transition-colors">
                 <span className="text-[#c7a86b] text-lg">G</span> PROJECTS
               </span>
@@ -34,10 +25,10 @@ export default function Footer() {
               από την ιδέα στην πραγματικότητα.
             </p>
             <a
-              href="tel:+306944085473"
-              className="inline-flex items-center gap-2 text-white hover:text-[#c7a86b] transition-colors text-sm font-medium"
+              href={`tel:${PHONE}`}
+              className="inline-flex items-center gap-2 text-white hover:text-[#c7a86b] transition-colors text-sm font-medium min-h-11"
             >
-              +30 694 408 5473
+              {PHONE_DISPLAY}
             </a>
           </div>
 
@@ -50,7 +41,7 @@ export default function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm hover:text-[#c7a86b] transition-colors"
+                  className="text-sm hover:text-[#c7a86b] transition-colors min-h-11 flex items-center"
                 >
                   {link.label}
                 </Link>
@@ -64,10 +55,10 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href={SOCIAL_LINKS.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white hover:border-[#c7a86b] hover:text-[#c7a86b] transition-all"
+                className="w-11 h-11 rounded-full border border-white/10 flex items-center justify-center text-white hover:border-[#c7a86b] hover:text-[#c7a86b] transition-all"
                 aria-label="Instagram"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -75,10 +66,10 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href={SOCIAL_LINKS.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white hover:border-[#c7a86b] hover:text-[#c7a86b] transition-all"
+                className="w-11 h-11 rounded-full border border-white/10 flex items-center justify-center text-white hover:border-[#c7a86b] hover:text-[#c7a86b] transition-all"
                 aria-label="Facebook"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -91,17 +82,12 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
           <span>© {new Date().getFullYear()} G Projects. All rights reserved.</span>
-          <button
-            type="button"
-            onClick={() =>
-              alert(
-                'Πολιτική Απορρήτου: Τα στοιχεία που υποβάλλετε στη φόρμα χρησιμοποιούνται αποκλειστικά για την επικοινωνία μαζί σας.'
-              )
-            }
-            className="text-white/40 hover:text-[#c7a86b] transition-colors underline underline-offset-4"
+          <Link
+            href="/privacy"
+            className="text-white/40 hover:text-[#c7a86b] transition-colors underline underline-offset-4 min-h-11 flex items-center"
           >
             Πολιτική Απορρήτου
-          </button>
+          </Link>
         </div>
       </div>
     </footer>

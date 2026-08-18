@@ -4,8 +4,14 @@ import Footer from "@/components/layout/Footer";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Επικοινωνία | G Projects",
-  description: "Επικοινωνήστε με την G Projects για την επόμενη αρχιτεκτονική σας δημιουργία.",
+  title: "Επικοινωνία",
+  description:
+    "Επικοινωνήστε με την G Projects για εσωτερικό σχεδιασμό, custom έπιπλα ή ανακαίνιση.",
+  openGraph: {
+    title: "Επικοινωνία | G Projects",
+    description:
+      "Στείλτε μήνυμα ή καλέστε την G Projects — απαντάμε εντός 24 ωρών.",
+  },
 };
 
 export default function ContactPage() {

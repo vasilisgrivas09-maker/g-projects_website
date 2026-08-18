@@ -17,8 +17,10 @@ const ebGaramond = EB_Garamond({
   style: ["normal", "italic"],
 });
 
+import { SITE_URL } from "@/data/site";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://g-projects-website.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "G Projects | Interior Design & Custom Furniture",
     template: "%s | G Projects",
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
     title: "G Projects | Spaces with Character",
     description:
       "Woodworking & renovation services — από την ιδέα στην πραγματικότητα.",
-    url: "https://g-projects-website.vercel.app",
+    url: SITE_URL,
     siteName: "G Projects",
     locale: "el_GR",
     type: "website",

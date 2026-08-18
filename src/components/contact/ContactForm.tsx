@@ -1,21 +1,22 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import { BadgeCheck, Handshake } from "lucide-react";
+import { PHONE, PHONE_DISPLAY, SOCIAL_LINKS } from "@/data/site";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  useEffect(() => {
-    const hasSubmitted = localStorage.getItem("gProjectsSubmitted");
-    if (hasSubmitted === "true") {
-      setSubmitted(true);
-    }
-  }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError(null);
+    setSubmitting(true);
+
     const form = e.currentTarget;
     const formData = new FormData(form);
 
@@ -23,27 +24,31 @@ export default function ContactForm() {
       const response = await fetch("https://formspree.io/f/mpparprw", {
         method: "POST",
         headers: {
-          "Accept": "application/json",
+          Accept: "application/json",
         },
         body: formData,
       });
 
       if (response.ok) {
         setSubmitted(true);
-        localStorage.setItem("gProjectsSubmitted", "true");
         form.reset();
       } else {
-        console.error("Το Formspree απέρριψε το αίτημα.");
-        alert("Προσοχή! Δεν έχει ρυθμιστεί σωστά η φόρμα αποστολής (Formspree ID).");
+        setError(
+          "Δεν ήταν δυνατή η αποστολή. Ελέγξτε τα στοιχεία σας ή δοκιμάστε ξανά σε λίγο."
+        );
       }
-    } catch (error) {
-      console.error("Σφάλμα δικτύου ή σύνδεσης:", error);
+    } catch {
+      setError(
+        "Σφάλμα σύνδεσης. Ελέγξτε το δίκτυό σας ή καλέστε μας απευθείας."
+      );
+    } finally {
+      setSubmitting(false);
     }
   };
 
   const handleResetForm = () => {
-    localStorage.removeItem("gProjectsSubmitted");
     setSubmitted(false);
+    setError(null);
   };
 
   const faqData = [
@@ -56,8 +61,8 @@ export default function ContactForm() {
       a: "Όχι. Μπορείτε να μας στείλετε το μήνυμά σας εδώ ή να μας καλέσετε απευθείας. Αν χρειαστεί να συζητήσουμε λεπτομέρειες για το έργο σας, θα κανονίσουμε μια κλήση ή συνάντηση.",
     },
     {
-      q: "Πώς μπορώ να σας στείλω φωτογραφίες του χώρου μου;",
-      a: "Μπορείτε να χρησιμοποιήσετε τη φόρμα για να μας στείλετε τις φωτογραφίες σας. Για μεγαλύτερα αρχεία, μπορούμε να συνεννοηθούμε μέσω email ή να σας δώσουμε ένα link μεταφόρτωσης.",
+      q: "Πώς μπορώ να σας δείξω φωτογραφίες του χώρου μου;",
+      a: "Μπορείτε να μας στείλετε link (Google Drive, WeTransfer κ.λπ.) στο μήνυμά σας ή να μας καλέσετε στο Viber/WhatsApp για να συνεννοηθούμε.",
     },
   ];
 
@@ -100,25 +105,13 @@ export default function ContactForm() {
             desc: "5+ χρόνια στον κορυφαίο σχεδιασμό και την κατασκευή ποιοτικών χώρων." 
           },
           { 
-            icon: (
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M19 9l-1.5 1.5V15H6.5v-4.5L5 9" />
-                <path d="M8 15V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v9" />
-                <path d="M15 19a2 2 0 0 1-2-2v-3H11v3a2 2 0 0 1-2 2H5" />
-                <path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" />
-              </svg>
-            ), 
+            icon: <BadgeCheck className="w-12 h-12" strokeWidth={1.8} />,
             title: "Απόλυτη Ποιότητα", 
             desc: "Δίνουμε έμφαση στην άριστη ποιότητα κατασκευής και στο μοναδικό design που ξεχωρίζει." 
           },
-          { 
-            icon: (
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-            ), 
-            title: "Εμπιστοσύνη & Διαφάνεια", 
+          {
+            icon: <Handshake className="w-12 h-12" strokeWidth={1.8} />,
+              title: "Εμπιστοσύνη & Διαφάνεια", 
             desc: "Αναλαμβάνουμε την πλήρη επίβλεψη με διαφάνεια, τηρώντας τα χρονοδιαγράμματα και παραδίδοντας ένα άψογο αποτέλεσμα." 
           }
         ].map((item, index) => (
@@ -179,9 +172,9 @@ export default function ContactForm() {
               </span>
               
               <div className="flex flex-col gap-3">
-                <a href="tel:+306944085473" className="flex items-center gap-3 hover:text-[#c7a86b] transition-colors py-1 group">
+                <a href={`tel:${PHONE}`} className="flex items-center gap-3 hover:text-[#c7a86b] transition-colors py-1 group min-h-11">
                   <span className="text-xl md:text-2xl group-hover:scale-110 transition-transform">📞</span>
-                  <span className="text-base md:text-lg">+30 694 408 5473</span>
+                  <span className="text-base md:text-lg">{PHONE_DISPLAY}</span>
                 </a>
 
                 <a href="viber://chat?number=%2B306944085473&draft=Γεια%20σας%2C%20θα%20ήθελα%20να%20κλείσουμε%20ένα%20ραντεβού%20για%20τον%20χώρο%20μου." target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-[#c7a86b] transition-colors py-1 group">
@@ -205,10 +198,10 @@ export default function ContactForm() {
             </div>
 
             <div className="flex gap-3 mt-auto">
-              <a href="https://facebook.com" target="_blank" aria-label="Facebook" className="w-10 h-10 rounded-full bg-[#1877f2] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-sm">
+              <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-11 h-11 rounded-full bg-[#1877f2] flex items-center justify-center text-white hover:scale-110 transition-transform shadow-sm">
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
               </a>
-              <a href="https://instagram.com" target="_blank" aria-label="Instagram" className="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white hover:scale-110 transition-transform shadow-sm">
+              <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-11 h-11 rounded-full bg-black flex items-center justify-center text-white hover:scale-110 transition-transform shadow-sm">
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
               </a>
             </div>
@@ -229,7 +222,15 @@ export default function ContactForm() {
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-5 lg:gap-6">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-5 lg:gap-6" noValidate>
+                {error && (
+                  <div
+                    role="alert"
+                    className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800"
+                  >
+                    {error}
+                  </div>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5">
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="name" className="text-sm font-medium text-gray-700">Όνομα</label>
@@ -269,16 +270,21 @@ export default function ContactForm() {
                     className="mt-1.5 w-4 h-4 border-gray-300 rounded text-[#c7a86b] focus:ring-[#c7a86b] cursor-pointer"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-500 leading-tight cursor-pointer">
-                    Συμφωνώ να χρησιμοποιηθούν τα στοιχεία μου για την απάντηση στο μήνυμά μου.
+                    Συμφωνώ με την{" "}
+                    <Link href="/privacy" className="text-[#c7a86b] hover:underline">
+                      πολιτική απορρήτου
+                    </Link>{" "}
+                    και τη χρήση των στοιχείων μου για την απάντηση στο μήνυμά μου.
                   </label>
                 </div>
 
                 <div className="flex justify-end mt-2 lg:mt-4">
                   <button 
-                    type="submit" 
-                    className="bg-[#9d5d3a] hover:bg-[#8a5132] text-white font-semibold py-3.5 px-8 rounded-xl shadow-md shadow-[#9d5d3a]/30 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+                    type="submit"
+                    disabled={submitting}
+                    className="bg-[#9d5d3a] hover:bg-[#8a5132] disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold py-3.5 px-8 rounded-xl shadow-md shadow-[#9d5d3a]/30 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 min-h-11"
                   >
-                    ΑΠΟΣΤΟΛΗ
+                    {submitting ? "ΑΠΟΣΤΟΛΗ…" : "ΑΠΟΣΤΟΛΗ"}
                   </button>
                 </div>
               </form>
