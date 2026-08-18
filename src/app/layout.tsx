@@ -54,6 +54,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="el" className={`${manrope.variable} ${ebGaramond.variable}`}>
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero.webp"
+          media="(max-width: 768px)"
+          fetchPriority="high"
+        />
+      </head>
       <body className="font-sans">
         {children}
         <Analytics />

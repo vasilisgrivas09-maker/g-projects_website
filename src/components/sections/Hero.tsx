@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { heroBlurDataURL } from '@/data/placeholders';
 
@@ -14,7 +13,8 @@ export default function Hero() {
           src="/images/hero.webp"
           alt="Interior architecture by G Projects"
           fill
-          preload
+          priority
+          fetchPriority="high"
           placeholder="blur"
           blurDataURL={heroBlurDataURL}
           className="object-cover scale-105 animate-[heroZoom_18s_ease-out_forwards]"
@@ -43,7 +43,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-3 text-white/90 uppercase tracking-[0.22em] text-[10px] sm:text-xs">
             <span className="w-8 h-px bg-[#c7a86b]" />
-            <span>Woodworking &amp; Renovation</span>
+            <span> Woodworking &amp; Renovation </span>
           </div>
 
           <h1 className="font-manrope font-extrabold text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight max-w-3xl drop-shadow-lg">

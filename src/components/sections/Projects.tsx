@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 import { featuredProjects } from '@/data/projects';
 
 const spanClasses: Record<string, string> = {
-  hero: 'md:col-span-8 md:row-span-2 min-h-[300px] md:min-h-0',
-  side: 'md:col-span-4',
+  hero: 'col-span-1 lg:col-span-8 lg:row-span-2',
+  side: 'col-span-1 lg:col-span-4',
 };
 
 export default function Projects() {
@@ -36,11 +36,11 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 md:auto-rows-[260px] gap-3 md:gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-12 lg:auto-rows-[260px] gap-3 lg:gap-4">
           {featuredProjects.map((project, index) => {
             const span = project.span
               ? spanClasses[project.span]
-              : 'md:col-span-4';
+              : 'col-span-1 lg:col-span-4';
             return (
               <motion.div
                 key={project.src}
@@ -52,11 +52,11 @@ export default function Projects() {
                   delay: index * 0.06,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className={`group relative overflow-hidden bg-gray-200 aspect-[4/3] sm:aspect-auto sm:min-h-[220px] md:min-h-0 md:aspect-auto ${span}`}
+                className={`group relative min-w-0 overflow-hidden bg-gray-200 aspect-[4/3] lg:aspect-auto ${span}`}
               >
                 <Link
                   href="/projects"
-                  className="absolute inset-0 z-10"
+                  className="absolute inset-0 z-10 block"
                   aria-label={`Δείτε όλα τα έργα — ${project.alt}`}
                 >
                   <Image
@@ -64,7 +64,7 @@ export default function Projects() {
                     alt={project.alt}
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
+                    sizes="(max-width: 1023px) 100vw, 40vw"
                     loading={index < 2 ? 'eager' : 'lazy'}
                     quality={80}
                   />
