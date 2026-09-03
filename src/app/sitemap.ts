@@ -1,8 +1,16 @@
 import type { MetadataRoute } from "next";
+import { galleryCategoryMeta } from "@/data/gallery";
 import { SITE_URL } from "@/data/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/projects", "/services", "/contact", "/privacy"];
+  const routes = [
+    "",
+    "/projects",
+    ...galleryCategoryMeta.map((meta) => `/projects/${meta.slug}`),
+    "/services",
+    "/contact",
+    "/privacy",
+  ];
 
   return routes.map((path) => ({
     url: `${SITE_URL}${path}`,

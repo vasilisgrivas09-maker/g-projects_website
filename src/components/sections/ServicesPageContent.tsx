@@ -75,7 +75,7 @@ export default function ServicesPageContent() {
             }}
             className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 flex flex-col items-center text-center cursor-pointer touch-manipulation outline-none focus:outline-none focus:ring-0 ring-0"
           >
-            <div className="w-14 h-14 text-[#c7a86b] mb-5">
+            <div className="w-14 h-14 text-[#b79a69] mb-5">
               {serviceIcons[service.title]}
             </div>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">
@@ -97,7 +97,7 @@ export default function ServicesPageContent() {
       >
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 bg-[#c7a86b] hover:bg-[#b89655] text-gray-900 font-bold py-3.5 px-8 rounded-full shadow-lg shadow-[#c7a86b]/25 transition-all duration-300 hover:scale-105"
+          className="btn-primary"
         >
           Ζητήστε προσφορά
           <span>↗</span>

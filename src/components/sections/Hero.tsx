@@ -6,7 +6,7 @@ const heroImageClass =
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-end overflow-hidden bg-[#0a0a0a] pt-24 pb-14 px-4 sm:px-6 lg:px-8">
+    <section className="relative min-h-[100svh] flex items-end overflow-hidden bg-[#171717] pt-24 pb-14 px-4 sm:px-6 lg:px-8">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-mobile.webp"
@@ -43,7 +43,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto w-full">
         <div className="space-y-5 sm:space-y-6">
           <div className="flex items-center gap-3 text-white/90 uppercase tracking-[0.22em] text-[10px] sm:text-xs">
-            <span className="w-8 h-px bg-[#c7a86b]" />
+            <span className="w-8 h-px bg-[#b79a69]" />
             <span> Woodworking &amp; Renovation </span>
           </div>
 
@@ -57,6 +57,12 @@ export default function Hero() {
               υψηλής ποιότητας και διαχρονική αισθητική.
             </p>
           </div>
+
+          <p className="inline-flex items-center gap-2.5 rounded-full border border-[#b79a69]/40 bg-black/25 px-4 py-2 text-xs sm:text-sm text-white/90 backdrop-blur-sm">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#b79a69]" />
+            Αναλαμβάνουμε έργα πανελλαδικά, από τον σχεδιασμό μέχρι την
+            τοποθέτηση.
+          </p>
         </div>
       </div>
 

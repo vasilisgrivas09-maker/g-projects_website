@@ -13,10 +13,12 @@ const config: Config = {
         serif: ['var(--font-serif)', 'Georgia', 'serif'],
       },
       colors: {
-        ink: '#101010',
-        paper: '#f5f5f2',
+        ink: '#171717',
+        paper: '#f4f1ea',
         muted: '#858585',
-        accent: '#c7a86b',
+        accent: '#b79a69',
+        stone: '#d8d3c9',
+        cta: '#825037',
       },
       animation: {
         'fade-up': 'fadeUp 0.8s ease-out forwards',

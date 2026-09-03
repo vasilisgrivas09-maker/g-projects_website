@@ -39,13 +39,13 @@ export default function ContactFaq() {
                 onClick={() => toggleFaq(index)}
                 aria-expanded={isOpen}
                 aria-controls={panelId}
-                className="w-full flex justify-between items-center text-left gap-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b] focus-visible:ring-offset-2 rounded-md py-1"
+                className="w-full flex justify-between items-center text-left gap-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69] focus-visible:ring-offset-2 rounded-md py-1"
               >
                 <span className="text-lg font-medium text-gray-800">
                   {item.q}
                 </span>
                 <span
-                  className={`text-[#c7a86b] transition-transform duration-300 shrink-0 ${isOpen ? "rotate-45" : ""}`}
+                  className={`text-[#b79a69] transition-transform duration-300 shrink-0 ${isOpen ? "rotate-45" : ""}`}
                   aria-hidden
                 >
                   <svg

@@ -17,7 +17,7 @@ export default function ContactPage() {
   return (
     <SiteChrome
       solidNav
-      mainClassName="min-h-screen bg-[#f8f9fa] pt-32 pb-24 flex flex-col items-center px-4 sm:px-8"
+      mainClassName="min-h-screen bg-[#f4f1ea] pt-32 pb-24 flex flex-col items-center px-4 sm:px-8"
     >
       <div className="max-w-5xl w-full">
         <ContactForm />

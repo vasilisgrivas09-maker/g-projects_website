@@ -2,12 +2,12 @@ import { stats } from "@/data/stats";
 
 export default function Stats() {
   return (
-    <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-[#010101]">
+    <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-[#171717]">
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
-              <div className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#c7a86b] mb-2">
+              <div className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#b79a69] mb-2">
                 {stat.value}
               </div>
               <div className="text-white/80 text-xs md:text-sm uppercase tracking-[0.15em]">

@@ -30,7 +30,7 @@ export default function ContactForm() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.96 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="flex flex-col items-center justify-center py-16 text-center h-full bg-[#fafaf9] rounded-xl border border-green-100"
+                className="flex flex-col items-center justify-center py-16 text-center h-full bg-[#f4f1ea] rounded-xl border border-green-100"
                 role="status"
                 aria-live="polite"
               >
@@ -46,7 +46,7 @@ export default function ContactForm() {
                 <button
                   type="button"
                   onClick={() => setSubmitted(false)}
-                  className="bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium py-2 px-6 rounded-full transition-colors text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b] focus-visible:ring-offset-2"
+                  className="bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium py-2 px-6 rounded-full transition-colors text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69] focus-visible:ring-offset-2"
                 >
                   Αποστολή νέου μηνύματος
                 </button>

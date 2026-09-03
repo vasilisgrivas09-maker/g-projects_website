@@ -85,7 +85,7 @@ function ServiceCard({ service }: { service: { title: string; desc: string } }) 
       whileHover={{ scale: 1.02, y: -4 }}
       whileTap={{ scale: 0.98 }}
       transition={{ type: 'spring', stiffness: 400, damping: 30 }}
-      className={`group relative bg-white/[0.03] rounded-2xl p-8 border border-white/10 hover:border-[#d4a373]/40 hover:bg-white/[0.05] transition-colors duration-500 overflow-hidden cursor-pointer will-change-transform ${isHovered ? 'is-active' : ''}`}
+      className={`group relative bg-white/[0.03] rounded-2xl p-8 border border-white/10 hover:border-[#b79a69]/40 hover:bg-white/[0.05] transition-colors duration-500 overflow-hidden cursor-pointer will-change-transform ${isHovered ? 'is-active' : ''}`}
     >
       <div
         className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -94,7 +94,7 @@ function ServiceCard({ service }: { service: { title: string; desc: string } }) 
         }}
       />
 
-      <h3 className="text-xl md:text-2xl font-semibold mb-3 text-[#d4a373] relative">
+      <h3 className="text-xl md:text-2xl font-semibold mb-3 text-[#b79a69] relative">
         {service.title}
       </h3>
       <p className="text-sm md:text-base text-gray-400 leading-relaxed relative z-10">
@@ -116,8 +116,8 @@ export default function ServicesAnimated() {
         className="grid md:grid-cols-2 gap-8 md:gap-16 mb-16 md:mb-20"
       >
         <div>
-          <div className="flex items-center gap-3 text-sm font-medium text-[#d4a373] uppercase tracking-wider mb-3">
-            <span className="w-6 h-px bg-[#d4a373]" />
+          <div className="flex items-center gap-3 text-sm font-medium text-[#b79a69] uppercase tracking-wider mb-3">
+            <span className="w-6 h-px bg-[#b79a69]" />
             What we do
           </div>
           <h2 className="text-3xl md:text-5xl font-light leading-[1.1]">
@@ -155,8 +155,8 @@ export default function ServicesAnimated() {
           transition={sectionTransition}
           className="mb-10 md:mb-14"
         >
-          <div className="flex items-center gap-3 text-xs md:text-sm font-medium text-[#d4a373] uppercase tracking-wider mb-2">
-            <span className="w-6 h-px bg-[#d4a373]" />
+          <div className="flex items-center gap-3 text-xs md:text-sm font-medium text-[#b79a69] uppercase tracking-wider mb-2">
+            <span className="w-6 h-px bg-[#b79a69]" />
             How we work
           </div>
           <h3 className="text-xl md:text-4xl font-light leading-[1.2]">
@@ -180,10 +180,10 @@ export default function ServicesAnimated() {
               whileTap={{ scale: 0.97 }}
               transition={{ type: 'spring', stiffness: 400, damping: 30 }}
               className="group bg-white/[0.03] rounded-xl p-5 md:p-6 border border-white/10 
-                         hover:border-[#d4a373]/40 hover:bg-white/[0.05] transition-colors duration-300 cursor-pointer will-change-transform"
+                         hover:border-[#b79a69]/40 hover:bg-white/[0.05] transition-colors duration-300 cursor-pointer will-change-transform"
             >
               <div className="flex items-center gap-3 md:gap-4 mb-2 md:mb-3">
-                <div className="text-lg md:text-xl font-bold text-[#d4a373] w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#d4a373]/10 flex items-center justify-center flex-shrink-0 border border-[#d4a373]/20 group-hover:bg-[#d4a373] group-hover:text-[#0a0a0a] group-hover:rotate-12 group-hover:scale-110 transition-all duration-300">
+                <div className="text-lg md:text-xl font-bold text-[#b79a69] w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#b79a69]/10 flex items-center justify-center flex-shrink-0 border border-[#b79a69]/20 group-hover:bg-[#b79a69] group-hover:text-[#171717] group-hover:rotate-12 group-hover:scale-110 transition-all duration-300">
                   {step.number}
                 </div>
                 <h4 className="font-semibold text-sm md:text-base">{step.title}</h4>

@@ -17,7 +17,7 @@ export default function ServicesPage() {
   return (
     <SiteChrome
       solidNav
-      mainClassName="pt-24 md:pt-32 pb-20 md:pb-28 bg-[#faf8f6]"
+      mainClassName="pt-24 md:pt-32 pb-20 md:pb-28 bg-[#f4f1ea]"
     >
       <div className="container px-4 md:px-8 mx-auto max-w-6xl">
         <header className="text-center max-w-2xl mx-auto mb-12 md:mb-16">

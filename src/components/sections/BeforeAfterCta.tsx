@@ -3,17 +3,17 @@ import ComparisonSlider from "@/components/ui/ComparisonSlider";
 
 export default function BeforeAfterCta() {
   return (
-    <section id="contact" className="scroll-mt-24 section-padding bg-[#faf8f6]">
+    <section id="contact" className="scroll-mt-24 section-padding bg-[#f4f1ea]">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
           <p className="kicker flex items-center justify-center gap-3 mb-4">
-            <span className="w-6 h-px bg-[#c7a86b]" />
+            <span className="w-6 h-px bg-[#b79a69]" />
             Before & After
-            <span className="w-6 h-px bg-[#c7a86b]" />
+            <span className="w-6 h-px bg-[#b79a69]" />
           </p>
           <h2 className="font-serif text-3xl md:text-5xl text-gray-900 mb-4">
             Από το σχέδιο στην{" "}
-            <span className="italic text-[#c7a86b]">πραγματικότητα</span>
+            <span className="italic text-[#b79a69]">πραγματικότητα</span>
           </h2>
           <p className="text-gray-500 text-base md:text-lg leading-relaxed">
             Σύρετε τον slider για να δείτε πώς μετατρέπουμε τα 3D σχέδια σε
@@ -36,7 +36,7 @@ export default function BeforeAfterCta() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-[#c7a86b] hover:bg-[#b89655] text-gray-900 font-bold py-4 px-10 rounded-full text-base md:text-lg shadow-lg shadow-[#c7a86b]/30 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+            className="btn-primary px-10 text-base md:text-lg"
           >
             Επικοινωνήστε μαζί μας
             <span>↗</span>

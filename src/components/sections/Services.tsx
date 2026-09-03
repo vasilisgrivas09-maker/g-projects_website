@@ -42,7 +42,7 @@ const ServicesAnimated = dynamic(() => import('./ServicesAnimated'), {
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 md:py-28 bg-[#0a0a0a] text-white overflow-hidden">
+    <section id="services" className="py-16 md:py-28 bg-[#171717] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <Suspense fallback={null}>
           <ServicesAnimated />

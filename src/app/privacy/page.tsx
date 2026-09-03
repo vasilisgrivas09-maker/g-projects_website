@@ -13,7 +13,7 @@ export default function PrivacyPage() {
   return (
     <SiteChrome
       solidNav
-      mainClassName="min-h-screen bg-[#f5f5f2] pt-28 pb-24 px-4 sm:px-8"
+      mainClassName="min-h-screen bg-[#f4f1ea] pt-28 pb-24 px-4 sm:px-8"
     >
       <article className="max-w-3xl mx-auto prose prose-gray">
           <h1 className="font-serif text-4xl text-gray-900 mb-6">
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           </h2>
           <p className="text-gray-600 leading-relaxed">
             G Projects — επικοινωνία:{" "}
-            <a href="tel:+306944085473" className="text-[#c7a86b] hover:underline">
+            <a href="tel:+306944085473" className="text-[#b79a69] hover:underline">
               {PHONE_DISPLAY}
             </a>
             .
@@ -98,7 +98,7 @@ export default function PrivacyPage() {
 
           <Link
             href="/contact"
-            className="inline-flex mt-8 text-[#c7a86b] hover:underline font-medium"
+            className="inline-flex mt-8 text-[#b79a69] hover:underline font-medium"
           >
             ← Επιστροφή στην επικοινωνία
           </Link>

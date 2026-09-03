@@ -82,7 +82,7 @@ export default function GalleryLightbox({
       <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
         <div className="absolute top-4 left-4 right-4 z-50 flex items-start justify-between gap-3 pointer-events-none">
           <div className="pointer-events-auto bg-black/40 backdrop-blur-sm text-white px-3 py-2 rounded-lg max-w-[70%]">
-            <p className="text-[#c7a86b] text-[10px] uppercase tracking-widest">
+            <p className="text-[#b79a69] text-[10px] uppercase tracking-widest">
               {project.category}
             </p>
             <p id={titleId} className="font-serif text-sm sm:text-base">
@@ -101,7 +101,7 @@ export default function GalleryLightbox({
               }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white/15 hover:bg-white/30 text-white p-2.5 rounded-full transition-colors touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b]"
+              className="bg-white/15 hover:bg-white/30 text-white p-2.5 rounded-full transition-colors touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69]"
               aria-label={isZoomed ? "Σμίκρυνση" : "Μεγέθυνση"}
             >
               <ZoomIcon zoomed={isZoomed} />
@@ -114,7 +114,7 @@ export default function GalleryLightbox({
               }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white/15 hover:bg-white/30 text-white p-2.5 rounded-full transition-colors touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b]"
+              className="bg-white/15 hover:bg-white/30 text-white p-2.5 rounded-full transition-colors touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69]"
               aria-label="Κλείσιμο"
             >
               <CloseIcon />
@@ -179,7 +179,7 @@ export default function GalleryLightbox({
               }}
               whileHover={{ scale: 1.08, x: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 bg-white/15 hover:bg-white/30 text-white p-2.5 sm:p-3 rounded-full transition-colors z-50 touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b]"
+              className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 bg-white/15 hover:bg-white/30 text-white p-2.5 sm:p-3 rounded-full transition-colors z-50 touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69]"
               aria-label="Προηγούμενη φωτογραφία"
             >
               <ChevronLeftIcon />
@@ -192,7 +192,7 @@ export default function GalleryLightbox({
               }}
               whileHover={{ scale: 1.08, x: 2 }}
               whileTap={{ scale: 0.95 }}
-              className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 bg-white/15 hover:bg-white/30 text-white p-2.5 sm:p-3 rounded-full transition-colors z-50 touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b]"
+              className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 bg-white/15 hover:bg-white/30 text-white p-2.5 sm:p-3 rounded-full transition-colors z-50 touch-manipulation focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b79a69]"
               aria-label="Επόμενη φωτογραφία"
             >
               <ChevronRightIcon />

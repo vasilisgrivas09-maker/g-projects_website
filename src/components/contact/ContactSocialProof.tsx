@@ -20,7 +20,7 @@ const items = [
       </svg>
     ),
     title: "Απόλυτη Εμπειρία",
-    desc: "5+ χρόνια στον κορυφαίο σχεδιασμό και την κατασκευή ποιοτικών χώρων.",
+    desc: "15+ χρόνια στον κορυφαίο σχεδιασμό και την κατασκευή ποιοτικών χώρων.",
   },
   {
     icon: <BadgeCheck className="w-12 h-12" strokeWidth={1.8} aria-hidden />,
@@ -56,7 +56,7 @@ export default function ContactSocialProof() {
           whileTap={{ scale: 0.98, y: -4 }}
           className="bg-white p-6 md:p-8 rounded-2xl shadow-md border border-gray-100 text-center flex flex-col items-center gap-4 touch-manipulation"
         >
-          <span className="w-14 h-14 text-[#c7a86b]">{item.icon}</span>
+          <span className="w-14 h-14 text-[#b79a69]">{item.icon}</span>
           <p className="text-xl md:text-2xl font-semibold text-gray-900">
             {item.title}
           </p>

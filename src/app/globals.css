@@ -5,11 +5,13 @@
 
 @layer base {
   :root {
-    --ink: #101010;
-    --paper: #f5f5f2;
+    --ink: #171717;
+    --paper: #f4f1ea;
     --muted: #858585;
-    --line: #d9d9d4;
-    --accent: #c7a86b;
+    --line: #d8d3c9;
+    --accent: #b79a69;
+    --cta: #825037;
+    --cta-hover: #6d4230;
   }
 
   * {
@@ -21,11 +23,11 @@
   }
 
   body {
-    @apply m-0 bg-[#f5f5f2] text-[#101010] font-sans antialiased overflow-x-hidden;
+    @apply m-0 bg-[#f4f1ea] text-[#171717] font-sans antialiased overflow-x-hidden;
   }
 
   ::selection {
-    @apply bg-[#c7a86b]/30 text-[#101010];
+    @apply bg-[#b79a69]/30 text-[#171717];
   }
 }
 
@@ -36,6 +38,11 @@
 
   .section-padding {
     @apply py-16 lg:py-28;
+  }
+
+  /* Single primary CTA style — walnut, used across every section */
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center gap-3 rounded-full bg-[#825037] px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-[#6d4230] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#825037]/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#825037] focus-visible:ring-offset-2;
   }
 
   .kicker {
