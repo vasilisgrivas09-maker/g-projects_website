@@ -7,7 +7,3 @@ export function galleryThumbSrc(fullSrc: string): string {
   const filename = fullSrc.slice(GALLERY_PREFIX.length);
   return `${THUMBS_PREFIX}${filename}`;
 }
-
-export function isGalleryFullSrc(src: string): boolean {
-  return src.startsWith(GALLERY_PREFIX) && !src.startsWith(THUMBS_PREFIX);
-}
