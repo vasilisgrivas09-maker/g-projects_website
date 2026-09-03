@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, EB_Garamond } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import SkipToContent from "@/components/layout/SkipToContent";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -67,6 +68,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans">
+        <SkipToContent />
         {children}
         <Analytics />
       </body>

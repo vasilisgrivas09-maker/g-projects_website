@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
-    qualities: [75, 80],
+    qualities: [70, 75, 80, 90],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000,
@@ -18,6 +18,15 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/images/(.*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/gallery/thumbs/(.*)",
         headers: [
           {
             key: "Cache-Control",

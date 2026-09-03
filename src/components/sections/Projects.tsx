@@ -9,9 +9,9 @@ const spanClasses: Record<string, string> = {
 
 export default function Projects() {
   return (
-    <section id="work" className="py-16 lg:py-28 bg-[#f5f5f2] scroll-mt-24">
+    <section id="work" className="py-16 sm:py-20 lg:py-28 bg-[#f5f5f2] scroll-mt-24">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-8 lg:mb-16 flex flex-col lg:flex-row justify-between items-start gap-6 lg:gap-8">
+        <div className="mb-9 sm:mb-12 lg:mb-16 flex flex-col lg:flex-row justify-between items-start gap-6 lg:gap-8">
           <div>
             <p className="kicker flex items-center gap-3">
               <span className="w-6 h-px bg-[#c7a86b]" />
@@ -27,7 +27,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-3 lg:grid lg:grid-cols-12 lg:grid-rows-[260px_260px_260px] lg:gap-4">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-12 lg:grid-rows-[260px_260px_260px] lg:gap-4">
           {featuredProjects.map((project, index) => {
             const span = project.span
               ? spanClasses[project.span]
@@ -35,11 +35,11 @@ export default function Projects() {
             return (
               <div
                 key={project.src}
-                className={`group relative w-full overflow-hidden bg-gray-200 aspect-[4/3] ${span}`}
+                className={`group relative w-full overflow-hidden rounded-2xl bg-gray-200 shadow-sm ring-1 ring-black/5 aspect-[4/3] lg:aspect-auto lg:h-full ${span}`}
               >
                 <Link
                   href="/projects"
-                  className="absolute inset-0 z-10 block"
+                  className="absolute inset-0 z-10 block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c7a86b] focus-visible:ring-offset-4 focus-visible:ring-offset-[#f5f5f2]"
                   aria-label={`Δείτε όλα τα έργα — ${project.alt}`}
                 >
                   <Image
@@ -47,8 +47,8 @@ export default function Projects() {
                     alt={project.alt}
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                    sizes="(max-width: 1023px) 100vw, 40vw"
-                    loading="lazy"
+                    sizes="(max-width: 639px) 92vw, (max-width: 1023px) 46vw, 40vw"
+                    loading={index < 2 ? "eager" : "lazy"}
                     quality={80}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent opacity-55 group-hover:opacity-90 transition-opacity duration-500" />

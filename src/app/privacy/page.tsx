@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import SiteChrome from "@/components/layout/SiteChrome";
 import { PHONE_DISPLAY } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -12,10 +11,11 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <>
-      <Navbar solid={true} />
-      <main className="min-h-screen bg-[#f5f5f2] pt-28 pb-24 px-4 sm:px-8">
-        <article className="max-w-3xl mx-auto prose prose-gray">
+    <SiteChrome
+      solidNav
+      mainClassName="min-h-screen bg-[#f5f5f2] pt-28 pb-24 px-4 sm:px-8"
+    >
+      <article className="max-w-3xl mx-auto prose prose-gray">
           <h1 className="font-serif text-4xl text-gray-900 mb-6">
             Πολιτική Απορρήτου
           </h1>
@@ -103,8 +103,6 @@ export default function PrivacyPage() {
             ← Επιστροφή στην επικοινωνία
           </Link>
         </article>
-      </main>
-      <Footer />
-    </>
+    </SiteChrome>
   );
 }

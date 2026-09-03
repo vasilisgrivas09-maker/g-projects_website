@@ -19,7 +19,6 @@ const jobs = [
   { file: "images/kathistiko.webp", width: 1600, quality: 80 },
   { file: "images/ntoulapa.webp", width: 1600, quality: 80 },
   { file: "images/domatio.webp", width: 1600, quality: 80 },
-  { file: "images/teddy.webp", width: 1600, quality: 80 },
   { file: "images/comparison/cad-plan.webp", width: 1600, quality: 80 },
   { file: "images/comparison/kitchen-cad-before.webp", width: 1600, quality: 80 },
 ];

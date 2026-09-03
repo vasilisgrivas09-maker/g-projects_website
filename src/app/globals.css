@@ -38,32 +38,12 @@
     @apply py-16 lg:py-28;
   }
 
-  .section-head {
-    @apply flex flex-col lg:flex-row justify-between items-start gap-6 lg:gap-8 mb-8 lg:mb-16;
-  }
-
   .kicker {
     @apply text-xs uppercase tracking-[0.2em] text-[#858585] mb-2;
   }
 
-  .heading-lg {
-    @apply font-manrope font-extrabold leading-[1.05] tracking-tight;
-  }
-
-  .heading-xl {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl;
-  }
-
-  .heading-2xl {
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl;
-  }
-
   .intro-text {
     @apply text-sm lg:text-base text-gray-600 leading-relaxed max-w-md;
-  }
-
-  .accent-text {
-    @apply text-[#c7a86b];
   }
 
   .grain-overlay {

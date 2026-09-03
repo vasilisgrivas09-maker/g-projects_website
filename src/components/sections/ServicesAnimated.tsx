@@ -2,19 +2,7 @@
 
 import { motion, Variants } from 'framer-motion';
 import { useState, useRef } from 'react';
-
-const steps = [
-  { number: '01', title: 'Συνάντηση', desc: 'Γνωριζόμαστε τον χώρο και τις ανάγκες σου.' },
-  { number: '02', title: '3D σχέδιο', desc: 'Βλέπεις τον χώρο πριν ξεκινήσει η κατασκευή.' },
-  { number: '03', title: 'Επιλογή υλικών', desc: 'Διαλέγουμε μαζί ξύλα, επιφάνειες και φωτισμό.' },
-  { number: '04', title: 'Κατασκευή', desc: 'Υλοποίηση με τακτική ενημέρωση προόδου.' },
-  { number: '05', title: 'Παράδοση', desc: 'Ο χώρος σου, έτοιμος να τον ζήσεις.' },
-];
-
-const miniServices = [
-  { title: 'Interior Design', desc: 'Concept, υλικά, φωτισμός και κάθε επιλογή που δίνει χαρακτήρα στον χώρο.' },
-  { title: 'Custom Furniture', desc: 'Έπιπλα σχεδιασμένα για τον χώρο σου, με καθαρές γραμμές και άψογη εφαρμογή.' },
-];
+import { miniServices, processSteps } from '@/data/services';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -184,7 +172,7 @@ export default function ServicesAnimated() {
           viewport={viewportConfig}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 md:gap-6"
         >
-          {steps.map((step) => (
+          {processSteps.map((step) => (
             <motion.div
               key={step.number}
               variants={itemVariants}
