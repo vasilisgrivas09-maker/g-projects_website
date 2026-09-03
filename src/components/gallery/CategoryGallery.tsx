@@ -141,7 +141,7 @@ export default function CategoryGallery({ projects }: CategoryGalleryProps) {
               src={galleryThumbSrc(project.cover)}
               alt=""
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-cover will-change-transform transition-transform duration-[750ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.08] group-active:scale-[1.04]"
               sizes="(max-width: 419px) 92vw, (max-width: 768px) 46vw, (max-width: 1200px) 33vw, 25vw"
               loading={index < 4 ? "eager" : "lazy"}
               quality={70}

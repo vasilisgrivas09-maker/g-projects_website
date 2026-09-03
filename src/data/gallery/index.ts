@@ -26,8 +26,6 @@ export const galleryImageCount = galleryProjects.reduce(
 
 export type GalleryCategoryGroup = GalleryCategoryMeta & {
   projects: GalleryProject[];
-  /** First project cover — used on the category card */
-  cover: string;
   imageCount: number;
 };
 
@@ -41,7 +39,6 @@ export const galleryCategoryGroups: GalleryCategoryGroup[] =
     return {
       ...meta,
       projects,
-      cover: projects[0]?.cover ?? "",
       imageCount: projects.reduce(
         (sum, project) => sum + project.images.length,
         0,

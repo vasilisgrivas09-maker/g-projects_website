@@ -42,7 +42,7 @@
 
   /* Single primary CTA style — walnut, used across every section */
   .btn-primary {
-    @apply inline-flex min-h-12 items-center justify-center gap-3 rounded-full bg-[#825037] px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-[#6d4230] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#825037]/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#825037] focus-visible:ring-offset-2;
+    @apply inline-flex min-h-12 items-center justify-center gap-3 rounded-full bg-[#111111] px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-[#6d4230] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#825037]/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#825037] focus-visible:ring-offset-2;
   }
 
   .kicker {

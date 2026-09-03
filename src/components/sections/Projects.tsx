@@ -11,7 +11,7 @@ const defaultSpan = "aspect-[4/5] sm:aspect-[4/3] lg:col-span-4";
 
 export default function Projects() {
   return (
-    <section id="work" className="py-16 sm:py-20 lg:py-28 bg-[#f4f1ea] scroll-mt-24">
+    <section id="work" className="py-16 sm:py-20 lg:py-28 bg-[#FEFEFE] scroll-mt-24">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-9 sm:mb-12 lg:mb-16 flex flex-col lg:flex-row justify-between items-start gap-6 lg:gap-8">
           <div>
