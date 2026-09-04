@@ -8,8 +8,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-005-01.webp",
     images: [
       { src: "/gallery/ergo-005-01.webp", alt: "Περσίδες Classic — 1" },
-      { src: "/gallery/ergo-005-02.webp", alt: "Περσίδες Classic — 2" },
-      { src: "/gallery/ergo-005-03.webp", alt: "Περσίδες Classic — 3" },
       { src: "/gallery/ergo-005-04.webp", alt: "Περσίδες Classic — 4" },
     ],
   },
@@ -20,9 +18,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-012-01.webp",
     images: [
       { src: "/gallery/ergo-012-01.webp", alt: "Συρόμενος Καθρέφτης — 1" },
-      { src: "/gallery/ergo-012-02.webp", alt: "Συρόμενος Καθρέφτης — 2" },
-      { src: "/gallery/ergo-012-03.webp", alt: "Συρόμενος Καθρέφτης — 3" },
-    ],
+   ],
   },
   {
     id: "ergo-016",
@@ -58,7 +54,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-032-01.webp",
     images: [
       { src: "/gallery/ergo-032-01.webp", alt: "Walk-in Γωνία — 1" },
-      { src: "/gallery/ergo-032-02.webp", alt: "Walk-in Γωνία — 2" },
     ],
   },
   {
@@ -95,7 +90,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-046-01.webp",
     images: [
       { src: "/gallery/ergo-046-01.webp", alt: "Περσίδες Δρυός — 1" },
-      { src: "/gallery/ergo-046-02.webp", alt: "Περσίδες Δρυός — 2" },
     ],
   },
   {
@@ -152,8 +146,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-062-01.webp",
     images: [
       { src: "/gallery/ergo-062-01.webp", alt: "Ράφια Σκάλας — 1" },
-      { src: "/gallery/ergo-062-02.webp", alt: "Ράφια Σκάλας — 2" },
-      { src: "/gallery/ergo-062-03.webp", alt: "Ράφια Σκάλας — 3" },
     ],
   },
   {

@@ -33,6 +33,7 @@ export const pergolaProjects: GalleryProject[] = [
       { src: "/gallery/pergola-05.webp", alt: "Γκρι Ορίζοντας — 5" },
       { src: "/gallery/pergola-06.webp", alt: "Γκρι Ορίζοντας — 6" },
       { src: "/gallery/pergola-07.webp", alt: "Γκρι Ορίζοντας — 7" },
+      { src: "/gallery/ergo-012-02.webp", alt: "Γκρι Ορίζοντας — 2" },
     ],
   }
 ];

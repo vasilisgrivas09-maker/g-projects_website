@@ -9,9 +9,6 @@ export const portaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-033-01.webp", alt: "Είσοδος Statement — 1" },
       { src: "/gallery/ergo-033-02.webp", alt: "Είσοδος Statement — 2" },
-      { src: "/gallery/ergo-033-03.webp", alt: "Είσοδος Statement — 3" },
-      { src: "/gallery/ergo-033-04.webp", alt: "Είσοδος Statement — 4" },
-      { src: "/gallery/ergo-033-05.webp", alt: "Είσοδος Statement — 5" },
     ],
   },
   {
@@ -21,8 +18,6 @@ export const portaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-035-01.webp",
     images: [
       { src: "/gallery/ergo-035-01.webp", alt: "Καθαρή Λευκή Πόρτα — 1" },
-      { src: "/gallery/ergo-035-02.webp", alt: "Καθαρή Λευκή Πόρτα — 2" },
-      { src: "/gallery/ergo-035-03.webp", alt: "Καθαρή Λευκή Πόρτα — 3" },
     ],
   },
   {
@@ -97,5 +92,15 @@ export const portaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-073-01.webp", alt: "Είσοδος σε Δρυς — 1" },
     ],
-  }
+  },
+  {
+    id: "ergo-063-02",
+    title: "Συρόμενη Δρυς",
+    category: "Πόρτα",
+    cover: "/gallery/ergo-063-02.webp",
+    images: [
+      { src: "/gallery/ergo-063-02.webp", alt: "Δρυς Συρόμενη — 1" },
+      { src: "/gallery/ergo-064-02.webp", alt: "Δρυς Συρόμενη — 2" },
+    ],
+  },
 ];

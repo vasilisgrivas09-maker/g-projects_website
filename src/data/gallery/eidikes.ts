@@ -5,7 +5,7 @@ export const eidikesProjects: GalleryProject[] = [
   {
     id: "ergo-001",
     title: "Γραμμική Οροφή",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-001-01.webp",
     images: [
       { src: "/gallery/ergo-001-01.webp", alt: "Γραμμική Οροφή — 1" },
@@ -14,7 +14,7 @@ export const eidikesProjects: GalleryProject[] = [
   {
     id: "ergo-006",
     title: "Ξύλινο Φίλτρο Φωτός",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-006-01.webp",
     images: [
       { src: "/gallery/ergo-006-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
@@ -24,37 +24,42 @@ export const eidikesProjects: GalleryProject[] = [
   {
     id: "ergo-011",
     title: "Κάθετες Γραμμές",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-011-01.webp",
     images: [
       { src: "/gallery/ergo-011-01.webp", alt: "Κάθετες Γραμμές — 1" },
+      { src: "/gallery/ergo-046-02.webp", alt: "Κάθετες Γραμμές — 2" },
     ],
   },
   {
     id: "ergo-014",
     title: "Ιδιωτικότητα Υπνοδωματίου",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-014-01.webp",
     images: [
       { src: "/gallery/ergo-014-01.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 1" },
       { src: "/gallery/ergo-014-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 2" },
       { src: "/gallery/ergo-014-03.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 3" },
+      { src: "/gallery/ergo-014-04.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 4" },
+      { src: "/gallery/ergo-065-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 5" },
+      { src: "/gallery/ergo-005-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 6" },
     ],
   },
   {
     id: "ergo-015",
     title: "Ξύλινη Υφή Τοίχου",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-015-01.webp",
     images: [
       { src: "/gallery/ergo-015-01.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
       { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
+      { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
     ],
   },
   {
     id: "ergo-020",
     title: "Διαχωριστικό σε Ρυθμό",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-020-01.webp",
     images: [
       { src: "/gallery/ergo-020-01.webp", alt: "Διαχωριστικό σε Ρυθμό — 1" },
@@ -63,19 +68,32 @@ export const eidikesProjects: GalleryProject[] = [
   {
     id: "ergo-027",
     title: "Οροφή με Ρυθμό",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-027-01.webp",
     images: [
       { src: "/gallery/ergo-027-01.webp", alt: "Οροφή με Ρυθμό — 1" },
+      { src: "/gallery/ergo-027-02.webp", alt: "Οροφή με Ρυθμό — 2" },
+      { src: "/gallery/ergo-027-03.webp", alt: "Οροφή με Ρυθμό — 3" },
+      { src: "/gallery/ergo-012-03.webp", alt: "Οροφή με Ρυθμό — 4" },
+      { src: "/gallery/ergo-032-02.webp", alt: "Οροφή με Ρυθμό — 5" },
     ],
   },
   {
     id: "ergo-061",
     title: "Τοίχος Media",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-061-01.webp",
     images: [
       { src: "/gallery/ergo-061-01.webp", alt: "Τοίχος Media — 1" },
+    ],
+  },
+  {
+   id: "ergo-033-05",
+   title: "Ξύλινη Σκάλα",
+   category: "Ειδικές κατασκευές",
+   cover: "/gallery/ergo-033-05.webp",
+   images: [
+     { src: "/gallery/ergo-033-05.webp", alt: "Ξύλινη Σκάλα — 1" },
     ],
   },
 ];

@@ -37,6 +37,7 @@ export const epiplaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-010-01.webp", alt: "Γραφείο Minimal — 1" },
       { src: "/gallery/ergo-010-02.webp", alt: "Γραφείο Minimal — 2" },
+      { src: "/gallery/ergo-037-02.webp", alt: "Γραφείο Minimal — 3" },
     ],
   },
   {

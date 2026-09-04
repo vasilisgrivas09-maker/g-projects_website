@@ -4,7 +4,7 @@ export type GalleryCategory =
   | "Πόρτα"
   | "Πέργκολα"
   | "Έπιπλα"
-  | "Ειδική κατασκευή";
+  | "Ειδικές κατασκευές";
 
 export type GalleryImage = {
   src: string;

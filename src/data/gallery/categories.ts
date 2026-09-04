@@ -88,7 +88,7 @@ export const galleryCategoryMeta: GalleryCategoryMeta[] = [
   },
   {
     slug: "eidikes-kataskeves",
-    category: "Ειδική κατασκευή",
+    category: "Ειδικές κατασκευές",
     label: "Ειδικές κατασκευές",
     cover: "/gallery/category-eidikes.webp",
     tagline: "Επενδύσεις, διαχωριστικά, οροφές και custom ξυλεία",
