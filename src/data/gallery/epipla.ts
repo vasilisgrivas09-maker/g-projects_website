@@ -46,10 +46,9 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-017",
     title: "Υπνοδωμάτιο με Χαρακτήρα",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-017-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-017-01.webp", alt: "Υπνοδωμάτιο με Χαρακτήρα — 1" },
-      { src: "/gallery/ergo-017-02.webp", alt: "Υπνοδωμάτιο με Χαρακτήρα — 2" },
+
     ],
   },
   {
@@ -119,7 +118,6 @@ export const epiplaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-049-01.webp",
     images: [
       { src: "/gallery/ergo-049-01.webp", alt: "Υποδοχή με Ύφος — 1" },
-      { src: "/gallery/ergo-049-02.webp", alt: "Υποδοχή με Ύφος — 2" },
     ],
   },
   {

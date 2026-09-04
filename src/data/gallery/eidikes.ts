@@ -51,6 +51,8 @@ export const eidikesProjects: GalleryProject[] = [
       { src: "/gallery/ergo-015-01.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
       { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
       { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
+      { src: "/gallery/ergo-017-01.webp", alt: "Ξύλινη Υφή Τοίχου — 4" },
+      { src: "/gallery/ergo-017-02.webp", alt: "Ξύλινη Υφή Τοίχου — 5" },
     ],
   },
   {

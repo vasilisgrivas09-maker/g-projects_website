@@ -73,6 +73,7 @@ export const portaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-071-01.webp",
     images: [
       { src: "/gallery/ergo-071-01.webp", alt: "Minimal Door — 1" },
+      { src: "/gallery/ergo-049-02.webp", alt: "Minimal Door — 2" },
     ],
   },
   {
