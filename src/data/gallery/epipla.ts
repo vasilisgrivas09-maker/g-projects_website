@@ -8,7 +8,6 @@ export const epiplaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-004-01.webp",
     images: [
       { src: "/gallery/ergo-004-01.webp", alt: "Βιβλιοθήκη με Ρυθμό — 1" },
-      { src: "/gallery/ergo-004-02.webp", alt: "Βιβλιοθήκη με Ρυθμό — 2" },
     ],
   },
   {
@@ -18,6 +17,9 @@ export const epiplaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-008-01.webp",
     images: [
       { src: "/gallery/ergo-008-01.webp", alt: "Κουκέτες Boutique — 1" },
+      { src: "/gallery/ergo-004-02.webp", alt: "Κουκέτες Boutique — 2" },
+      { src: "/gallery/ergo-021-01.webp", alt: "Κουκέτες Boutique — 3" },
+      { src: "/gallery/ergo-022-01.webp", alt: "Κουκέτες Boutique — 4" },   
     ],
   },
   {
@@ -54,19 +56,16 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-021",
     title: "Κουκέτες σε Δρυ",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-021-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-021-01.webp", alt: "Κουκέτες σε Δρυ — 1" },
     ],
   },
   {
     id: "ergo-022",
     title: "Sleep Loft Custom",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-022-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-022-01.webp", alt: "Sleep Loft Custom — 1" },
-      { src: "/gallery/ergo-022-02.webp", alt: "Sleep Loft Custom — 2" },
     ],
   },
   {
@@ -109,10 +108,8 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-047",
     title: "Λευκή Συρταριέρα",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-047-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-047-01.webp", alt: "Λευκή Συρταριέρα — 1" },
-      { src: "/gallery/ergo-047-02.webp", alt: "Λευκή Συρταριέρα — 2" },
     ],
   },
   {

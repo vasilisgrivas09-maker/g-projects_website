@@ -7,7 +7,8 @@ export const pergolaProjects: GalleryProject[] = [
     category: "Πέργκολα",
     cover: "/gallery/ergo-007-01.webp",
     images: [
-      { src: "/gallery/ergo-007-01.webp", alt: "Λευκή Σκίαση — 1" },
+     { src: "/gallery/ergo-007-01.webp", alt: "Λευκή Σκίαση — 1" },
+     { src: "/gallery/ergo-014-03.webp", alt: "Λευκή Σκίαση — 2" },
     ],
   },
   {

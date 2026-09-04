@@ -99,7 +99,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-050-01.webp",
     images: [
       { src: "/gallery/ergo-050-01.webp", alt: "Ντουλάπα Δρυός — 1" },
-      { src: "/gallery/ergo-050-02.webp", alt: "Ντουλάπα Δρυός — 2" },
     ],
   },
   {
@@ -109,6 +108,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-056-01.webp",
     images: [
       { src: "/gallery/ergo-056-01.webp", alt: "Vault κάτω από Σκάλα — 1" },
+      { src: "/gallery/ergo-022-02.webp", alt: "Vault κάτω από Σκάλα — 2" },
     ],
   },
   {
@@ -118,7 +118,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-057-01.webp",
     images: [
       { src: "/gallery/ergo-057-01.webp", alt: "Σκάλα με Αποθήκευση — 1" },
-      { src: "/gallery/ergo-057-02.webp", alt: "Σκάλα με Αποθήκευση — 2" },
     ],
   },
   {
@@ -137,6 +136,8 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-060-01.webp",
     images: [
       { src: "/gallery/ergo-060-01.webp", alt: "Ντουλάπα Διαδρόμου — 1" },
+      { src: "/gallery/ergo-047-02.webp", alt: "Ντουλάπα Διαδρόμου — 2" },
+      { src: "/gallery/ergo-046-02.webp", alt: "Ντουλάπα Διαδρόμου — 3" },
     ],
   },
   {
@@ -146,6 +147,8 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-062-01.webp",
     images: [
       { src: "/gallery/ergo-062-01.webp", alt: "Ράφια Σκάλας — 1" },
+      { src: "/gallery/ergo-039-02.webp", alt: "Ράφια Σκάλας — 2" },
+      { src: "/gallery/ergo-045-03.webp", alt: "Ράφια Σκάλας — 3" },
     ],
   },
   {

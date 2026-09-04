@@ -44,7 +44,7 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-025-01.webp",
     images: [
       { src: "/gallery/ergo-025-01.webp", alt: "Κάβα & Εστία — 1" },
-      { src: "/gallery/ergo-025-02.webp", alt: "Κάβα & Εστία — 2" },],
+    ],
   },
   {
     id: "ergo-026",
@@ -81,7 +81,6 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-030-01.webp",
     images: [
       { src: "/gallery/ergo-030-01.webp", alt: "Ξύλινη Ροή — 1" },
-      { src: "/gallery/ergo-030-02.webp", alt: "Ξύλινη Ροή — 2" },
     ],
   },
   {
@@ -100,7 +99,6 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-039-01.webp",
     images: [
       { src: "/gallery/ergo-039-01.webp", alt: "Δρυς & Γκρι — 1" },
-      { src: "/gallery/ergo-039-02.webp", alt: "Δρυς & Γκρι — 2" },
       { src: "/gallery/ergo-039-03.webp", alt: "Δρυς & Γκρι — 3" },
     ],
   },
@@ -121,9 +119,6 @@ export const kouzinaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-045-01.webp", alt: "Γωνιακή Σύνθεση — 1" },
       { src: "/gallery/ergo-045-02.webp", alt: "Γωνιακή Σύνθεση — 2" },
-      { src: "/gallery/ergo-045-03.webp", alt: "Γωνιακή Σύνθεση — 3" },
-      { src: "/gallery/ergo-045-04.webp", alt: "Γωνιακή Σύνθεση — 4" },
-      { src: "/gallery/ergo-045-05.webp", alt: "Γωνιακή Σύνθεση — 5" },
     ],
   },
   {
@@ -160,7 +155,7 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-063-01.webp",
     images: [
       { src: "/gallery/ergo-063-01.webp", alt: "Διπλή Εστία Νερού — 1" },,
-      { src: "/gallery/ergo-063-03.webp", alt: "Διπλή Εστία Νερού — 3" },
+      { src: "/gallery/ergo-063-03.webp", alt: "Διπλή Εστία Νερού — 2" },
     ],
   },
   {
@@ -172,6 +167,7 @@ export const kouzinaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-064-01.webp", alt: "Μεγάλο Νησί — 1" },
       { src: "/gallery/ergo-062-02.webp", alt: "Μεγάλο Νησί — 2" },
       { src: "/gallery/ergo-062-03.webp", alt: "Μεγάλο Νησί — 3" },
+      { src: "/gallery/ergo-057-02.webp", alt: "Μεγάλο Νησί — 4" },
     ],
   },
   {
@@ -181,6 +177,7 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-065-01.webp",
     images: [
       { src: "/gallery/ergo-065-01.webp", alt: "Λευκό Νησί — 1" },
+      { src: "/gallery/ergo-014-02.webp", alt: "Λευκό Νησί — 2" },
     ],
   },
   {

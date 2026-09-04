@@ -28,7 +28,7 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-011-01.webp",
     images: [
       { src: "/gallery/ergo-011-01.webp", alt: "Κάθετες Γραμμές — 1" },
-      { src: "/gallery/ergo-046-02.webp", alt: "Κάθετες Γραμμές — 2" },
+      { src: "/gallery/ergo-045-05.webp", alt: "Κάθετες Γραμμές — 2" },
     ],
   },
   {
@@ -38,11 +38,8 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-014-01.webp",
     images: [
       { src: "/gallery/ergo-014-01.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 1" },
-      { src: "/gallery/ergo-014-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 2" },
-      { src: "/gallery/ergo-014-03.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 3" },
-      { src: "/gallery/ergo-014-04.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 4" },
-      { src: "/gallery/ergo-065-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 5" },
-      { src: "/gallery/ergo-005-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 6" },
+      { src: "/gallery/ergo-065-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 2" },
+      { src: "/gallery/ergo-005-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 3" },
     ],
   },
   {
@@ -72,10 +69,10 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-027-01.webp",
     images: [
       { src: "/gallery/ergo-027-01.webp", alt: "Οροφή με Ρυθμό — 1" },
-      { src: "/gallery/ergo-027-02.webp", alt: "Οροφή με Ρυθμό — 2" },
-      { src: "/gallery/ergo-027-03.webp", alt: "Οροφή με Ρυθμό — 3" },
-      { src: "/gallery/ergo-012-03.webp", alt: "Οροφή με Ρυθμό — 4" },
-      { src: "/gallery/ergo-032-02.webp", alt: "Οροφή με Ρυθμό — 5" },
+      { src: "/gallery/ergo-012-03.webp", alt: "Οροφή με Ρυθμό — 2" },
+      { src: "/gallery/ergo-032-02.webp", alt: "Οροφή με Ρυθμό — 3" },
+      { src: "/gallery/ergo-050-02.webp", alt: "Οροφή με Ρυθμό — 4" },
+      { src: "/gallery/ergo-047-01.webp", alt: "Οροφή με Ρυθμό — 5" },
     ],
   },
   {

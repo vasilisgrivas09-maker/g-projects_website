@@ -91,6 +91,7 @@ export const portaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-073-01.webp",
     images: [
       { src: "/gallery/ergo-073-01.webp", alt: "Είσοδος σε Δρυς — 1" },
+      { src: "/gallery/ergo-045-04.webp", alt: "Είσοδος σε Δρυς — 2" },
     ],
   },
   {
