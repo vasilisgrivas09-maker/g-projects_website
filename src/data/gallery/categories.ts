@@ -5,7 +5,8 @@ export type CategorySlug =
   | "pergkoles"
   | "kouzines"
   | "ntoulapes"
-  | "epipla";
+  | "epipla"
+  | "eidikes-kataskeves";
 
 export type GalleryCategoryMeta = {
   slug: CategorySlug;
@@ -78,11 +79,23 @@ export const galleryCategoryMeta: GalleryCategoryMeta[] = [
     category: "Έπιπλα",
     label: "Έπιπλα",
     cover: "/gallery/category-epipla.webp",
-    tagline: "Custom έπιπλα και ξύλινες λεπτομέρειες",
+    tagline: "Custom έπιπλα για κάθε χώρο",
     intro:
-      "Έπιπλα κατά παραγγελία — έπιπλα τηλεόρασης, μπάνιου, βιβλιοθήκες, διαχωριστικά και ξύλινες επενδύσεις τοίχου και οροφής.",
+      "Έπιπλα κατά παραγγελία — έπιπλα τηλεόρασης, μπάνιου, βιβλιοθήκες, γραφεία και συνθέσεις εισόδου σχεδιασμένες στις διαστάσεις σας.",
     metaTitle: "Έπιπλα",
     metaDescription:
-      "Custom έπιπλα από την G Projects — έπιπλα τηλεόρασης και μπάνιου, βιβλιοθήκες, διαχωριστικά και ξύλινες επενδύσεις. Πανελλαδικά.",
+      "Custom έπιπλα από την G Projects — έπιπλα τηλεόρασης και μπάνιου, βιβλιοθήκες, γραφεία και συνθέσεις εισόδου. Πανελλαδικά.",
+  },
+  {
+    slug: "eidikes-kataskeves",
+    category: "Ειδική κατασκευή",
+    label: "Ειδικές κατασκευές",
+    cover: "/gallery/category-eidikes.webp",
+    tagline: "Επενδύσεις, διαχωριστικά, οροφές και custom ξυλεία",
+    intro:
+      "Αρχιτεκτονικές ξύλινες λύσεις — επενδύσεις τοίχου και οροφής, διαχωριστικά, media walls και ειδικές κατασκευές που ενσωματώνονται στον χώρο.",
+    metaTitle: "Ειδικές κατασκευές",
+    metaDescription:
+      "Ειδικές ξύλινες κατασκευές από την G Projects — επενδύσεις, διαχωριστικά, οροφές και custom ξυλεία. Πανελλαδικά.",
   },
 ];

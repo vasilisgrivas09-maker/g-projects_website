@@ -2,15 +2,6 @@ import type { GalleryProject } from "./types";
 
 export const epiplaProjects: GalleryProject[] = [
   {
-    id: "ergo-001",
-    title: "Γραμμική Οροφή",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-001-01.webp",
-    images: [
-      { src: "/gallery/ergo-001-01.webp", alt: "Γραμμική Οροφή — 1" },
-    ],
-  },
-  {
     id: "ergo-004",
     title: "Βιβλιοθήκη με Ρυθμό",
     category: "Έπιπλα",
@@ -18,16 +9,6 @@ export const epiplaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-004-01.webp", alt: "Βιβλιοθήκη με Ρυθμό — 1" },
       { src: "/gallery/ergo-004-02.webp", alt: "Βιβλιοθήκη με Ρυθμό — 2" },
-    ],
-  },
-  {
-    id: "ergo-006",
-    title: "Ξύλινο Φίλτρο Φωτός",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-006-01.webp",
-    images: [
-      { src: "/gallery/ergo-006-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
-      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
     ],
   },
   {
@@ -59,36 +40,6 @@ export const epiplaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-011",
-    title: "Κάθετες Γραμμές",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-011-01.webp",
-    images: [
-      { src: "/gallery/ergo-011-01.webp", alt: "Κάθετες Γραμμές — 1" },
-    ],
-  },
-  {
-    id: "ergo-014",
-    title: "Ιδιωτικότητα Υπνοδωματίου",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-014-01.webp",
-    images: [
-      { src: "/gallery/ergo-014-01.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 1" },
-      { src: "/gallery/ergo-014-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 2" },
-      { src: "/gallery/ergo-014-03.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 3" },
-    ],
-  },
-  {
-    id: "ergo-015",
-    title: "Ξύλινη Υφή Τοίχου",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-015-01.webp",
-    images: [
-      { src: "/gallery/ergo-015-01.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
-      { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
-    ],
-  },
-  {
     id: "ergo-017",
     title: "Υπνοδωμάτιο με Χαρακτήρα",
     category: "Έπιπλα",
@@ -96,15 +47,6 @@ export const epiplaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-017-01.webp", alt: "Υπνοδωμάτιο με Χαρακτήρα — 1" },
       { src: "/gallery/ergo-017-02.webp", alt: "Υπνοδωμάτιο με Χαρακτήρα — 2" },
-    ],
-  },
-  {
-    id: "ergo-020",
-    title: "Διαχωριστικό σε Ρυθμό",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-020-01.webp",
-    images: [
-      { src: "/gallery/ergo-020-01.webp", alt: "Διαχωριστικό σε Ρυθμό — 1" },
     ],
   },
   {
@@ -124,15 +66,6 @@ export const epiplaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-022-01.webp", alt: "Sleep Loft Custom — 1" },
       { src: "/gallery/ergo-022-02.webp", alt: "Sleep Loft Custom — 2" },
-    ],
-  },
-  {
-    id: "ergo-027",
-    title: "Οροφή με Ρυθμό",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-027-01.webp",
-    images: [
-      { src: "/gallery/ergo-027-01.webp", alt: "Οροφή με Ρυθμό — 1" },
     ],
   },
   {
@@ -218,13 +151,4 @@ export const epiplaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-059-01.webp", alt: "Σύνθεση Εισόδου — 1" },
     ],
   },
-  {
-    id: "ergo-061",
-    title: "Τοίχος Media",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-061-01.webp",
-    images: [
-      { src: "/gallery/ergo-061-01.webp", alt: "Τοίχος Media — 1" },
-    ],
-  }
 ];

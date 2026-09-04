@@ -5,6 +5,7 @@ import { ntoulapaProjects } from "./ntoulapa";
 import { portaProjects } from "./porta";
 import { pergolaProjects } from "./pergola";
 import { epiplaProjects } from "./epipla";
+import { eidikesProjects } from "./eidikes";
 
 export type { GalleryCategory, GalleryImage, GalleryProject } from "./types";
 export type { CategorySlug, GalleryCategoryMeta } from "./categories";
@@ -17,6 +18,7 @@ export const galleryProjects: GalleryProject[] = [
   ...portaProjects,
   ...pergolaProjects,
   ...epiplaProjects,
+  ...eidikesProjects,
 ];
 
 export const galleryImageCount = galleryProjects.reduce(

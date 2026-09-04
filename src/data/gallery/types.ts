@@ -3,7 +3,8 @@ export type GalleryCategory =
   | "Ντουλάπα"
   | "Πόρτα"
   | "Πέργκολα"
-  | "Έπιπλα";
+  | "Έπιπλα"
+  | "Ειδική κατασκευή";
 
 export type GalleryImage = {
   src: string;

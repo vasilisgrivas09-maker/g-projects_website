@@ -176,7 +176,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
               className="mt-10 flex flex-col"
               aria-label="Κύρια πλοήγηση"
             >
-              {navLinks.map((link, index) => {
+              {navLinks.map((link) => {
                 const isActive =
                   link.href === "/"
                     ? pathname === "/"
@@ -188,14 +188,8 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
                       href={link.href}
                       onClick={() => setIsOpen(false)}
                       aria-current={isActive ? "page" : undefined}
-                      className="group flex items-baseline gap-4 border-b border-white/10 py-5 focus-visible:outline-none"
+                      className="group block border-b border-white/10 py-5 focus-visible:outline-none"
                     >
-                      <span
-                        aria-hidden="true"
-                        className="w-6 shrink-0 text-[11px] tracking-[0.2em] text-[#b79a69]/70"
-                      >
-                        0{index + 1}
-                      </span>
                       <span
                         className={`font-serif text-3xl transition-colors group-hover:text-[#b79a69] group-focus-visible:text-[#b79a69] ${
                           isActive ? "text-[#b79a69]" : "text-white"
