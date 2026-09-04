@@ -63,6 +63,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-041-01.webp",
     images: [
       { src: "/gallery/ergo-041-01.webp", alt: "Απαλές Περσίδες — 1" },
+      { src: "/gallery/ergo-046-01.webp", alt: "Απαλές Περσίδες — 2" },
     ],
   },
   {
@@ -87,9 +88,8 @@ export const ntoulapaProjects: GalleryProject[] = [
     id: "ergo-046",
     title: "Περσίδες Δρυός",
     category: "Ντουλάπα",
-    cover: "/gallery/ergo-046-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-046-01.webp", alt: "Περσίδες Δρυός — 1" },
     ],
   },
   {

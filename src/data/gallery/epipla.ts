@@ -20,6 +20,7 @@ export const epiplaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-004-02.webp", alt: "Κουκέτες Boutique — 2" },
       { src: "/gallery/ergo-021-01.webp", alt: "Κουκέτες Boutique — 3" },
       { src: "/gallery/ergo-022-01.webp", alt: "Κουκέτες Boutique — 4" },   
+      { src: "/gallery/ergo-026-03.webp", alt: "Κουκέτες Boutique — 5" },   
     ],
   },
   {

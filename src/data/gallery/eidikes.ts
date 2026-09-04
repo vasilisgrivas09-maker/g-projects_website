@@ -15,10 +15,9 @@ export const eidikesProjects: GalleryProject[] = [
     id: "ergo-006",
     title: "Ξύλινο Φίλτρο Φωτός",
     category: "Ειδικές κατασκευές",
-    cover: "/gallery/ergo-006-01.webp",
+    cover: "/gallery/ergo-006-02.webp",
     images: [
-      { src: "/gallery/ergo-006-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
-      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
+      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
     ],
   },
   {
@@ -48,11 +47,10 @@ export const eidikesProjects: GalleryProject[] = [
     category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-015-01.webp",
     images: [
-      { src: "/gallery/ergo-015-01.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
-      { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
-      { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
-      { src: "/gallery/ergo-017-01.webp", alt: "Ξύλινη Υφή Τοίχου — 4" },
-      { src: "/gallery/ergo-017-02.webp", alt: "Ξύλινη Υφή Τοίχου — 5" },
+      { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
+      { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
+      { src: "/gallery/ergo-017-01.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
+      { src: "/gallery/ergo-017-02.webp", alt: "Ξύλινη Υφή Τοίχου — 4" },
     ],
   },
   {
@@ -62,6 +60,8 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-020-01.webp",
     images: [
       { src: "/gallery/ergo-020-01.webp", alt: "Διαχωριστικό σε Ρυθμό — 1" },
+      { src: "/gallery/ergo-015-01.webp", alt: "Διαχωριστικό σε Ρυθμό — 2" },
+      { src: "/gallery/ergo-006-01.webp", alt: "Διαχωριστικό σε Ρυθμό — 3" },
     ],
   },
   {

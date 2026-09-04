@@ -128,6 +128,7 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-048-01.webp",
     images: [
       { src: "/gallery/ergo-048-01.webp", alt: "Ανοιχτό Πλάνο — 1" },
+      { src: "/gallery/ergo-014-02.webp", alt: "Ανοιχτό Πλάνο — 2" },
     ],
   },
   {
@@ -177,7 +178,6 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-065-01.webp",
     images: [
       { src: "/gallery/ergo-065-01.webp", alt: "Λευκό Νησί — 1" },
-      { src: "/gallery/ergo-014-02.webp", alt: "Λευκό Νησί — 2" },
     ],
   },
   {
