@@ -27,8 +27,9 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-009",
     title: "Διπλός Νιπτήρας",
     category: "Έπιπλα",
-    cover: "",
+    cover: "/gallery/ergo-005-02.webp",
     images: [
+      { src: "/gallery/ergo-005-02.webp", alt: "Διπλός Νιπτήρας — 1" },
     ],
   },
   {
@@ -82,26 +83,29 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-044",
     title: "Πάγκος Παραθύρου",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-044-01.webp",
+    cover: "/gallery/ergo-033-03.webp",
     images: [
-      { src: "/gallery/ergo-044-01.webp", alt: "Πάγκος Παραθύρου — 1" },
+      { src: "/gallery/ergo-033-03.webp", alt: "Πάγκος Παραθύρου — 1" },
     ],
   },
   {
     id: "ergo-047",
     title: "Λευκή Συρταριέρα",
     category: "Έπιπλα",
-    cover: "",
+    cover: "/gallery/ergo-050-02.webp",
     images: [
+      { src: "/gallery/ergo-050-02.webp", alt: "Λευκή Συρταριέρα — 1" },
+      { src: "/gallery/ergo-047-01.webp", alt: "Λευκή Συρταριέρα — 2" },
     ],
   },
   {
     id: "ergo-049",
     title: "Υποδοχή με Ύφος",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-049-01.webp",
+    cover: "/gallery/ergo-032-02.webp",
     images: [
-      { src: "/gallery/ergo-049-01.webp", alt: "Υποδοχή με Ύφος — 1" },
+      { src: "/gallery/ergo-032-02.webp", alt: "Υποδοχή με Ύφος — 1" },
+      { src: "/gallery/ergo-017-02.webp", alt: "Υποδοχή με Ύφος — 2" },
     ],
   },
   {
@@ -111,6 +115,8 @@ export const epiplaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-052-01.webp",
     images: [
       { src: "/gallery/ergo-052-01.webp", alt: "Έπιπλο Υποδοχής — 1" },
+      { src: "/gallery/ergo-044-01.webp", alt: "Έπιπλο Υποδοχής — 2" },
+      { src: "/gallery/ergo-049-01.webp", alt: "Έπιπλο Υποδοχής — 3" }, 
     ],
   },
   {

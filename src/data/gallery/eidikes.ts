@@ -39,7 +39,6 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-065-02.webp",
     images: [
       { src: "/gallery/ergo-065-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 1" },
-      { src: "/gallery/ergo-005-02.webp", alt: "Ιδιωτικότητα Υπνοδωματίου — 2" },
     ],
   },
   {
@@ -48,8 +47,7 @@ export const eidikesProjects: GalleryProject[] = [
     category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-005-03.webp",
     images: [
-      { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
-      { src: "/gallery/ergo-033-03.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
+      { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
     ],
   },
   {
@@ -71,10 +69,6 @@ export const eidikesProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-017-01.webp", alt: "Οροφή με Ρυθμό — 1" },
       { src: "/gallery/ergo-012-03.webp", alt: "Οροφή με Ρυθμό — 2" },
-      { src: "/gallery/ergo-032-02.webp", alt: "Οροφή με Ρυθμό — 3" },
-      { src: "/gallery/ergo-050-02.webp", alt: "Οροφή με Ρυθμό — 4" },
-      { src: "/gallery/ergo-017-02.webp", alt: "Οροφή με Ρυθμό — 5" },
-      { src: "/gallery/ergo-047-01.webp", alt: "Οροφή με Ρυθμό — 6" },
     ],
   },
   {
