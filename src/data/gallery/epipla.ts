@@ -36,45 +36,27 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-010",
     title: "Γραφείο Minimal",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-010-01.webp",
+    cover: "/gallery/ergo-037-02.webp",
     images: [
-      { src: "/gallery/ergo-010-01.webp", alt: "Γραφείο Minimal — 1" },
-      { src: "/gallery/ergo-010-02.webp", alt: "Γραφείο Minimal — 2" },
-      { src: "/gallery/ergo-037-02.webp", alt: "Γραφείο Minimal — 3" },
-    ],
-  },
-  {
-    id: "ergo-017",
-    title: "Υπνοδωμάτιο με Χαρακτήρα",
-    category: "Έπιπλα",
-    cover: "",
-    images: [
-
+      { src: "/gallery/ergo-037-02.webp", alt: "Γραφείο Minimal — 1" },
+      { src: "/gallery/ergo-010-01.webp", alt: "Γραφείο Minimal — 2" },
     ],
   },
   {
     id: "ergo-021",
-    title: "Κουκέτες σε Δρυ",
+    title: "Sleep Loft Custom",
     category: "Έπιπλα",
-    cover: "",
+    cover: "/gallery/ergo-010-02.webp",
     images: [
+      { src: "/gallery/ergo-010-02.webp", alt: "Sleep Loft Custom — 1" },
     ],
   },
   {
     id: "ergo-022",
-    title: "Sleep Loft Custom",
+    title: "Κουκέτες σε Δρυ",
     category: "Έπιπλα",
     cover: "",
     images: [
-    ],
-  },
-  {
-    id: "ergo-031",
-    title: "Βιτρίνα Εστιατορίου",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-031-01.webp",
-    images: [
-      { src: "/gallery/ergo-031-01.webp", alt: "Βιτρίνα Εστιατορίου — 1" },
     ],
   },
   {

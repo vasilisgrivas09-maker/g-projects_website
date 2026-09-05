@@ -36,5 +36,14 @@ export const pergolaProjects: GalleryProject[] = [
       { src: "/gallery/pergola-07.webp", alt: "Γκρι Ορίζοντας — 7" },
       { src: "/gallery/ergo-012-02.webp", alt: "Γκρι Ορίζοντας — 2" },
     ],
-  }
+  },
+   {
+    id: "ergo-031",
+    title: "Βιτρίνα Εστιατορίου",
+    category: "Έπιπλα",
+    cover: "/gallery/ergo-031-01.webp",
+    images: [
+      { src: "/gallery/ergo-031-01.webp", alt: "Βιτρίνα Εστιατορίου — 1" },
+    ],
+  },
 ];

@@ -2,14 +2,6 @@ import type { GalleryProject } from "./types";
 
 export const kouzinaProjects: GalleryProject[] = [
   {
-    id: "ergo-002",
-    title: "Τεχνολογία & Καθαρότητα",
-    category: "Κουζίνα",
-    cover: "",
-    images: [
-    ],
-  },
-  {
     id: "ergo-003",
     title: "Νησί Εστίασης",
     category: "Κουζίνα",
@@ -42,6 +34,7 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-025-01.webp",
     images: [
       { src: "/gallery/ergo-025-01.webp", alt: "Κάβα & Εστία — 1" },
+      { src: "/gallery/ergo-062-02.webp", alt: "Κάβα & Εστία — 2" },
     ],
   },
   {
@@ -59,18 +52,16 @@ export const kouzinaProjects: GalleryProject[] = [
     id: "ergo-028",
     title: "Γωνιακή Δρυς",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-028-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-028-01.webp", alt: "Γωνιακή Δρυς — 1" },
     ],
   },
   {
     id: "ergo-039",
     title: "Δρυς & Γκρι",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-039-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-039-01.webp", alt: "Δρυς & Γκρι — 1" },
     ],
   },
   {
@@ -79,9 +70,10 @@ export const kouzinaProjects: GalleryProject[] = [
     category: "Κουζίνα",
     cover: "/gallery/ergo-045-01.webp",
     images: [
-      { src: "/gallery/ergo-045-01.webp", alt: "Γωνιακή Σύνθεση — 1" },
-      { src: "/gallery/ergo-055-01.webp", alt: "Γωνιακή Σύνθεση — 2" },
-      { src: "/gallery/ergo-063-03.webp", alt: "Γωνιακή Σύνθεση — 3" },
+      { src: "/gallery/ergo-039-01.webp", alt: "Γωνιακή Σύνθεση — 1" },
+      { src: "/gallery/ergo-045-01.webp", alt: "Γωνιακή Σύνθεση — 2" },
+      { src: "/gallery/ergo-055-01.webp", alt: "Γωνιακή Σύνθεση — 3" },
+      { src: "/gallery/ergo-063-03.webp", alt: "Γωνιακή Σύνθεση — 4" },
     ],
   },
   {
@@ -105,24 +97,15 @@ export const kouzinaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-063",
-    title: "Διπλή Εστία Νερού",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-063-01.webp",
-    images: [
-      { src: "/gallery/ergo-063-01.webp", alt: "Διπλή Εστία Νερού — 1" },
-      { src: "/gallery/ergo-035-02.webp", alt: "Διπλή Εστία Νερού — 2" },
-    ],
-  },
-  {
     id: "ergo-064",
     title: "Μεγάλο Νησί",
     category: "Κουζίνα",
     cover: "/gallery/ergo-064-01.webp",
     images: [
       { src: "/gallery/ergo-064-01.webp", alt: "Μεγάλο Νησί — 1" },
-      { src: "/gallery/ergo-062-02.webp", alt: "Μεγάλο Νησί — 2" },
-      { src: "/gallery/ergo-062-03.webp", alt: "Μεγάλο Νησί — 3" },
+      { src: "/gallery/ergo-062-03.webp", alt: "Μεγάλο Νησί — 2" },
+      { src: "/gallery/ergo-063-01.webp", alt: "Μεγάλο Νησί — 3" },
+      { src: "/gallery/ergo-028-01.webp", alt: "Μεγάλο Νησί — 4" },
     ],
   },
   {
@@ -134,6 +117,7 @@ export const kouzinaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-065-01.webp", alt: "Λευκό Νησί — 1" },
       { src: "/gallery/ergo-040-01.webp", alt: "Λευκό Νησί — 2" },
       { src: "/gallery/ergo-037-01.webp", alt: "Λευκό Νησί — 3" },
+      { src: "/gallery/ergo-035-02.webp", alt: "Λευκό Νησί — 4" },
     ],
   },
   {
