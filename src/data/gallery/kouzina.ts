@@ -155,8 +155,9 @@ export const kouzinaProjects: GalleryProject[] = [
     category: "Κουζίνα",
     cover: "/gallery/ergo-063-01.webp",
     images: [
-      { src: "/gallery/ergo-063-01.webp", alt: "Διπλή Εστία Νερού — 1" },,
-      { src: "/gallery/ergo-063-03.webp", alt: "Διπλή Εστία Νερού — 2" },
+      { src: "/gallery/ergo-063-01.webp", alt: "Διπλή Εστία Νερού — 1" },
+      { src: "/gallery/ergo-035-02.webp", alt: "Διπλή Εστία Νερού — 2" },
+      { src: "/gallery/ergo-063-03.webp", alt: "Διπλή Εστία Νερού — 3" },
     ],
   },
   {
