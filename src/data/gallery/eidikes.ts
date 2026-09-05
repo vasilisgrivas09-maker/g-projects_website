@@ -13,16 +13,6 @@ export const eidikesProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-006",
-    title: "Ξύλινο Φίλτρο Φωτός",
-    category: "Ειδικές κατασκευές",
-    cover: "/gallery/ergo-006-02.webp",
-    images: [
-      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
-      { src: "/gallery/ergo-009-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
-    ],
-  },
-  {
     id: "ergo-011",
     title: "Κάθετες Γραμμές",
     category: "Ειδικές κατασκευές",
@@ -30,6 +20,19 @@ export const eidikesProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-011-01.webp", alt: "Κάθετες Γραμμές — 1" },
       { src: "/gallery/ergo-014-01.webp", alt: "Κάθετες Γραμμές — 2" },
+    ],
+  },
+  {
+    id: "ergo-008",
+    title: "Κουκέτες Boutique",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-008-01.webp",
+    images: [
+      { src: "/gallery/ergo-008-01.webp", alt: "Κουκέτες Boutique — 1" },
+      { src: "/gallery/ergo-004-02.webp", alt: "Κουκέτες Boutique — 2" },
+      { src: "/gallery/ergo-021-01.webp", alt: "Κουκέτες Boutique — 3" },
+      { src: "/gallery/ergo-022-01.webp", alt: "Κουκέτες Boutique — 4" },   
+      { src: "/gallery/ergo-026-03.webp", alt: "Κουκέτες Boutique — 5" },   
     ],
   },
   {
@@ -42,12 +45,69 @@ export const eidikesProjects: GalleryProject[] = [
     ],
   },
   {
+    id: "ergo-009",
+    title: "Διπλός Νιπτήρας",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-005-02.webp",
+    images: [
+      { src: "/gallery/ergo-005-02.webp", alt: "Διπλός Νιπτήρας — 1" },
+    ],
+  },
+  {
+    id: "ergo-036",
+    title: "Σουίτα Υπνοδωματίου",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-036-01.webp",
+    images: [
+      { src: "/gallery/ergo-036-01.webp", alt: "Σουίτα Υπνοδωματίου — 1" },
+    ],
+  },
+  {
+    id: "ergo-044",
+    title: "Πάγκος Παραθύρου",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-033-03.webp",
+    images: [
+      { src: "/gallery/ergo-033-03.webp", alt: "Πάγκος Παραθύρου — 1" },
+    ],
+  },
+  {
+    id: "ergo-049",
+    title: "Υποδοχή με Ύφος",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-032-02.webp",
+    images: [
+      { src: "/gallery/ergo-032-02.webp", alt: "Υποδοχή με Ύφος — 1" },
+      { src: "/gallery/ergo-017-02.webp", alt: "Υποδοχή με Ύφος — 2" },
+    ],
+  },
+  {
+    id: "ergo-052",
+    title: "Έπιπλο Υποδοχής",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-052-01.webp",
+    images: [
+      { src: "/gallery/ergo-052-01.webp", alt: "Έπιπλο Υποδοχής — 1" },
+      { src: "/gallery/ergo-044-01.webp", alt: "Έπιπλο Υποδοχής — 2" },
+      { src: "/gallery/ergo-049-01.webp", alt: "Έπιπλο Υποδοχής — 3" }, 
+    ],
+  },
+  {
     id: "ergo-015",
     title: "Ξύλινη Υφή Τοίχου",
     category: "Ειδικές κατασκευές",
     cover: "/gallery/ergo-005-03.webp",
     images: [
       { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
+    ],
+  },
+  {
+    id: "ergo-053",
+    title: "Σαλόνι με Υφή",
+    category: "Ειδικές κατασκευές",
+    cover: "/gallery/ergo-053-01.webp",
+    images: [
+      { src: "/gallery/ergo-053-01.webp", alt: "Σαλόνι με Υφή — 1" },
     ],
   },
   {

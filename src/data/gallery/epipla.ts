@@ -11,25 +11,13 @@ export const epiplaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-008",
-    title: "Κουκέτες Boutique",
+    id: "ergo-006",
+    title: "Ξύλινο Φίλτρο Φωτός",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-008-01.webp",
+    cover: "/gallery/ergo-006-02.webp",
     images: [
-      { src: "/gallery/ergo-008-01.webp", alt: "Κουκέτες Boutique — 1" },
-      { src: "/gallery/ergo-004-02.webp", alt: "Κουκέτες Boutique — 2" },
-      { src: "/gallery/ergo-021-01.webp", alt: "Κουκέτες Boutique — 3" },
-      { src: "/gallery/ergo-022-01.webp", alt: "Κουκέτες Boutique — 4" },   
-      { src: "/gallery/ergo-026-03.webp", alt: "Κουκέτες Boutique — 5" },   
-    ],
-  },
-  {
-    id: "ergo-009",
-    title: "Διπλός Νιπτήρας",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-005-02.webp",
-    images: [
-      { src: "/gallery/ergo-005-02.webp", alt: "Διπλός Νιπτήρας — 1" },
+      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
+      { src: "/gallery/ergo-009-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
     ],
   },
   {
@@ -52,40 +40,12 @@ export const epiplaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-022",
-    title: "Walk in closet",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-015-02.webp",
-    images: [
-      { src: "/gallery/ergo-015-02.webp", alt: "Walk in closet — 1" },
-      { src: "/gallery/ergo-069-01.webp", alt: "Walk in closet — 2" },
-    ],
-  },
-  {
     id: "ergo-034",
     title: "Χαμηλή Σύνθεση",
     category: "Έπιπλα",
     cover: "/gallery/ergo-034-01.webp",
     images: [
       { src: "/gallery/ergo-034-01.webp", alt: "Χαμηλή Σύνθεση — 1" },
-    ],
-  },
-  {
-    id: "ergo-036",
-    title: "Σουίτα Υπνοδωματίου",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-036-01.webp",
-    images: [
-      { src: "/gallery/ergo-036-01.webp", alt: "Σουίτα Υπνοδωματίου — 1" },
-    ],
-  },
-  {
-    id: "ergo-044",
-    title: "Πάγκος Παραθύρου",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-033-03.webp",
-    images: [
-      { src: "/gallery/ergo-033-03.webp", alt: "Πάγκος Παραθύρου — 1" },
     ],
   },
   {
@@ -99,42 +59,11 @@ export const epiplaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-049",
-    title: "Υποδοχή με Ύφος",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-032-02.webp",
-    images: [
-      { src: "/gallery/ergo-032-02.webp", alt: "Υποδοχή με Ύφος — 1" },
-      { src: "/gallery/ergo-017-02.webp", alt: "Υποδοχή με Ύφος — 2" },
-    ],
-  },
-  {
-    id: "ergo-052",
-    title: "Έπιπλο Υποδοχής",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-052-01.webp",
-    images: [
-      { src: "/gallery/ergo-052-01.webp", alt: "Έπιπλο Υποδοχής — 1" },
-      { src: "/gallery/ergo-044-01.webp", alt: "Έπιπλο Υποδοχής — 2" },
-      { src: "/gallery/ergo-049-01.webp", alt: "Έπιπλο Υποδοχής — 3" }, 
-    ],
-  },
-  {
-    id: "ergo-053",
-    title: "Σαλόνι με Υφή",
-    category: "Έπιπλα",
-    cover: "/gallery/ergo-053-01.webp",
-    images: [
-      { src: "/gallery/ergo-053-01.webp", alt: "Σαλόνι με Υφή — 1" },
-    ],
-  },
-  {
     id: "ergo-059",
     title: "Σύνθεση Εισόδου",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-059-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-059-01.webp", alt: "Σύνθεση Εισόδου — 1" },
     ],
   },
 ];

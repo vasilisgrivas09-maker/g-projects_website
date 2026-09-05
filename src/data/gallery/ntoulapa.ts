@@ -106,9 +106,10 @@ export const ntoulapaProjects: GalleryProject[] = [
     id: "ergo-060",
     title: "Ντουλάπα Διαδρόμου",
     category: "Ντουλάπα",
-    cover: "/gallery/ergo-060-01.webp",
+    cover: "/gallery/ergo-059-01.webp",
     images: [
-      { src: "/gallery/ergo-060-01.webp", alt: "Ντουλάπα Διαδρόμου — 1" },
+      { src: "/gallery/ergo-059-01.webp", alt: "Ντουλάπα Διαδρόμου — 1" },
+      { src: "/gallery/ergo-060-01.webp", alt: "Ντουλάπα Διαδρόμου — 2" },
     ],
   },
   {
@@ -127,5 +128,15 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "",
     images: [
     ],
-  }
+  },
+  {
+    id: "ergo-022",
+    title: "Walk in closet",
+    category: "Ντουλάπα",
+    cover: "/gallery/ergo-015-02.webp",
+    images: [
+      { src: "/gallery/ergo-015-02.webp", alt: "Walk in closet — 1" },
+      { src: "/gallery/ergo-069-01.webp", alt: "Walk in closet — 2" },
+    ],
+  },
 ];
