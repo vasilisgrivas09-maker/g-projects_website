@@ -13,12 +13,13 @@ export const ntoulapaProjects: GalleryProject[] = [
   },
   {
     id: "ergo-012",
-    title: "Συρόμενος Καθρέφτης",
+    title: "Σουίτα με Καθρέφτη",
     category: "Ντουλάπα",
     cover: "/gallery/ergo-012-01.webp",
     images: [
-      { src: "/gallery/ergo-012-01.webp", alt: "Συρόμενος Καθρέφτης — 1" },
-   ],
+      { src: "/gallery/ergo-012-01.webp", alt: "Σουίτα με Καθρέφτη — 1" },
+      { src: "/gallery/ergo-023-01.webp", alt: "Σουίτα με Καθρέφτη — 2" },
+    ],
   },
   {
     id: "ergo-016",
@@ -34,19 +35,10 @@ export const ntoulapaProjects: GalleryProject[] = [
     id: "ergo-019",
     title: "Αποθήκευση Περσίδες",
     category: "Ντουλάπα",
-    cover: "/gallery/ergo-019-01.webp",
+    cover: "/gallery/ergo-046-01.webp",
     images: [
-      { src: "/gallery/ergo-019-01.webp", alt: "Αποθήκευση Περσίδες — 1" },
-      { src: "/gallery/ergo-046-01.webp", alt: "Αποθήκευση Περσίδες — 2" },
-    ],
-  },
-  {
-    id: "ergo-023",
-    title: "Σουίτα με Καθρέφτη",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-023-01.webp",
-    images: [
-      { src: "/gallery/ergo-023-01.webp", alt: "Σουίτα με Καθρέφτη — 1" },
+      { src: "/gallery/ergo-046-01.webp", alt: "Αποθήκευση Περσίδες — 1" },
+      { src: "/gallery/ergo-019-01.webp", alt: "Αποθήκευση Περσίδες — 2" },
     ],
   },
   {
@@ -56,6 +48,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-032-01.webp",
     images: [
       { src: "/gallery/ergo-032-01.webp", alt: "Walk-in Γωνία — 1" },
+      { src: "/gallery/ergo-047-02.webp", alt: "Walk-in Γωνία — 2" },
     ],
   },
   {
@@ -116,7 +109,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-060-01.webp",
     images: [
       { src: "/gallery/ergo-060-01.webp", alt: "Ντουλάπα Διαδρόμου — 1" },
-      { src: "/gallery/ergo-047-02.webp", alt: "Ντουλάπα Διαδρόμου — 2" },
     ],
   },
   {

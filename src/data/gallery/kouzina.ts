@@ -5,9 +5,8 @@ export const kouzinaProjects: GalleryProject[] = [
     id: "ergo-002",
     title: "Τεχνολογία & Καθαρότητα",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-002-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-002-01.webp", alt: "Τεχνολογία & Καθαρότητα — 1" },
     ],
   },
   {
@@ -23,18 +22,17 @@ export const kouzinaProjects: GalleryProject[] = [
     id: "ergo-013",
     title: "Αψεγάδιαστη Λευκότητα",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-013-01.webp",
+    cover: "/gallery/ergo-045-02.webp",
     images: [
-      { src: "/gallery/ergo-013-01.webp", alt: "Αψεγάδιαστη Λευκότητα — 1" },
+      { src: "/gallery/ergo-045-02.webp", alt: "Αψεγάδιαστη Λευκότητα — 1" },
     ],
   },
   {
     id: "ergo-018",
     title: "Θερμή Δρυς",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-018-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-018-01.webp", alt: "Θερμή Δρυς — 1" },
     ],
   },
   {
@@ -53,7 +51,8 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-026-01.webp",
     images: [
       { src: "/gallery/ergo-026-01.webp", alt: "Ανοιχτή Τραπεζαρία — 1" },
-      { src: "/gallery/ergo-026-02.webp", alt: "Ανοιχτή Τραπεζαρία — 2" },
+      { src: "/gallery/ergo-018-01.webp", alt: "Ανοιχτή Τραπεζαρία — 2" },
+      { src: "/gallery/ergo-030-01.webp", alt: "Ανοιχτή Τραπεζαρία — 3" },
     ],
   },
   {
@@ -66,49 +65,12 @@ export const kouzinaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-029",
-    title: "Ανθρακί Minimal",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-029-01.webp",
-    images: [
-      { src: "/gallery/ergo-029-01.webp", alt: "Ανθρακί Minimal — 1" },
-    ],
-  },
-  {
-    id: "ergo-030",
-    title: "Ξύλινη Ροή",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-030-01.webp",
-    images: [
-      { src: "/gallery/ergo-030-01.webp", alt: "Ξύλινη Ροή — 1" },
-    ],
-  },
-  {
-    id: "ergo-037",
-    title: "Μπαρ & Εστία",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-037-01.webp",
-    images: [
-      { src: "/gallery/ergo-037-01.webp", alt: "Μπαρ & Εστία — 1" },
-    ],
-  },
-  {
     id: "ergo-039",
     title: "Δρυς & Γκρι",
     category: "Κουζίνα",
     cover: "/gallery/ergo-039-01.webp",
     images: [
       { src: "/gallery/ergo-039-01.webp", alt: "Δρυς & Γκρι — 1" },
-      { src: "/gallery/ergo-039-03.webp", alt: "Δρυς & Γκρι — 3" },
-    ],
-  },
-  {
-    id: "ergo-040",
-    title: "Λεπτομέρεια Πάγκου",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-040-01.webp",
-    images: [
-      { src: "/gallery/ergo-040-01.webp", alt: "Λεπτομέρεια Πάγκου — 1" },
     ],
   },
   {
@@ -118,7 +80,8 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-045-01.webp",
     images: [
       { src: "/gallery/ergo-045-01.webp", alt: "Γωνιακή Σύνθεση — 1" },
-      { src: "/gallery/ergo-045-02.webp", alt: "Γωνιακή Σύνθεση — 2" },
+      { src: "/gallery/ergo-055-01.webp", alt: "Γωνιακή Σύνθεση — 2" },
+      { src: "/gallery/ergo-063-03.webp", alt: "Γωνιακή Σύνθεση — 3" },
     ],
   },
   {
@@ -135,18 +98,10 @@ export const kouzinaProjects: GalleryProject[] = [
     id: "ergo-054",
     title: "Απαλή Δρυς",
     category: "Κουζίνα",
-    cover: "/gallery/ergo-054-01.webp",
+    cover: "/gallery/ergo-057-02.webp",
     images: [
-      { src: "/gallery/ergo-054-01.webp", alt: "Απαλή Δρυς — 1" },
-    ],
-  },
-  {
-    id: "ergo-055",
-    title: "L-Line Σύνθεση",
-    category: "Κουζίνα",
-    cover: "/gallery/ergo-055-01.webp",
-    images: [
-      { src: "/gallery/ergo-055-01.webp", alt: "L-Line Σύνθεση — 1" },
+      { src: "/gallery/ergo-057-02.webp", alt: "Απαλή Δρυς — 1" },
+      { src: "/gallery/ergo-054-01.webp", alt: "Απαλή Δρυς — 2" },
     ],
   },
   {
@@ -157,7 +112,6 @@ export const kouzinaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-063-01.webp", alt: "Διπλή Εστία Νερού — 1" },
       { src: "/gallery/ergo-035-02.webp", alt: "Διπλή Εστία Νερού — 2" },
-      { src: "/gallery/ergo-063-03.webp", alt: "Διπλή Εστία Νερού — 3" },
     ],
   },
   {
@@ -169,7 +123,6 @@ export const kouzinaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-064-01.webp", alt: "Μεγάλο Νησί — 1" },
       { src: "/gallery/ergo-062-02.webp", alt: "Μεγάλο Νησί — 2" },
       { src: "/gallery/ergo-062-03.webp", alt: "Μεγάλο Νησί — 3" },
-      { src: "/gallery/ergo-057-02.webp", alt: "Μεγάλο Νησί — 4" },
     ],
   },
   {
@@ -179,6 +132,8 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-065-01.webp",
     images: [
       { src: "/gallery/ergo-065-01.webp", alt: "Λευκό Νησί — 1" },
+      { src: "/gallery/ergo-040-01.webp", alt: "Λευκό Νησί — 2" },
+      { src: "/gallery/ergo-037-01.webp", alt: "Λευκό Νησί — 3" },
     ],
   },
   {
@@ -213,6 +168,8 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/modern-kitchen-01.webp",
     images: [
       { src: "/gallery/modern-kitchen-01.webp", alt: "Αντίθεση Υλικών — 1" },
+      { src: "/gallery/ergo-026-02.webp", alt: "Αντίθεση Υλικών — 2" },
+      { src: "/gallery/ergo-029-01.webp", alt: "Αντίθεση Υλικών — 3" },
     ],
   },
   {
@@ -222,6 +179,9 @@ export const kouzinaProjects: GalleryProject[] = [
     cover: "/gallery/photo-01.webp",
     images: [
       { src: "/gallery/photo-01.webp", alt: "Οργάνωση Soft-Close — 1" },
+      { src: "/gallery/ergo-002-01.webp", alt: "Οργάνωση Soft-Close — 2" },
+      { src: "/gallery/ergo-013-01.webp", alt: "Οργάνωση Soft-Close — 3" },  
+      { src: "/gallery/ergo-039-03.webp", alt: "Οργάνωση Soft-Close — 4" },
     ],
   }
 ];
