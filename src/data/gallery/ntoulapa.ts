@@ -5,10 +5,10 @@ export const ntoulapaProjects: GalleryProject[] = [
     id: "ergo-005",
     title: "Περσίδες Classic",
     category: "Ντουλάπα",
-    cover: "/gallery/ergo-005-01.webp",
+    cover: "/gallery/ergo-045-03.webp",
     images: [
-      { src: "/gallery/ergo-005-01.webp", alt: "Περσίδες Classic — 1" },
-      { src: "/gallery/ergo-005-04.webp", alt: "Περσίδες Classic — 4" },
+      { src: "/gallery/ergo-045-03.webp", alt: "Περσίδες Classic — 1" },
+      { src: "/gallery/ergo-039-02.webp", alt: "Περσίδες Classic — 2" },
     ],
   },
   {
@@ -27,6 +27,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-016-01.webp",
     images: [
       { src: "/gallery/ergo-016-01.webp", alt: "Καθρέφτης στο Ύψος — 1" },
+      { src: "/gallery/ergo-046-02.webp", alt: "Καθρέφτης στο Ύψος — 2" },   
     ],
   },
   {
@@ -36,6 +37,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-019-01.webp",
     images: [
       { src: "/gallery/ergo-019-01.webp", alt: "Αποθήκευση Περσίδες — 1" },
+      { src: "/gallery/ergo-046-01.webp", alt: "Αποθήκευση Περσίδες — 2" },
     ],
   },
   {
@@ -63,30 +65,12 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-041-01.webp",
     images: [
       { src: "/gallery/ergo-041-01.webp", alt: "Απαλές Περσίδες — 1" },
-      { src: "/gallery/ergo-046-01.webp", alt: "Απαλές Περσίδες — 2" },
+      { src: "/gallery/ergo-005-01.webp", alt: "Απαλές Περσίδες — 2" },
     ],
   },
   {
     id: "ergo-042",
     title: "Ανοιχτό Γκρι",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-042-01.webp",
-    images: [
-      { src: "/gallery/ergo-042-01.webp", alt: "Ανοιχτό Γκρι — 1" },
-    ],
-  },
-  {
-    id: "ergo-043",
-    title: "Αποθήκη Σκάλας",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-043-01.webp",
-    images: [
-      { src: "/gallery/ergo-043-01.webp", alt: "Αποθήκη Σκάλας — 1" },
-    ],
-  },
-  {
-    id: "ergo-046",
-    title: "Περσίδες Δρυός",
     category: "Ντουλάπα",
     cover: "",
     images: [
@@ -99,6 +83,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-050-01.webp",
     images: [
       { src: "/gallery/ergo-050-01.webp", alt: "Ντουλάπα Δρυός — 1" },
+      { src: "/gallery/ergo-005-04.webp", alt: "Ντουλάπα Δρυός — 2" },
     ],
   },
   {
@@ -109,15 +94,9 @@ export const ntoulapaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-056-01.webp", alt: "Vault κάτω από Σκάλα — 1" },
       { src: "/gallery/ergo-022-02.webp", alt: "Vault κάτω από Σκάλα — 2" },
-    ],
-  },
-  {
-    id: "ergo-057",
-    title: "Σκάλα με Αποθήκευση",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-057-01.webp",
-    images: [
-      { src: "/gallery/ergo-057-01.webp", alt: "Σκάλα με Αποθήκευση — 1" },
+      { src: "/gallery/ergo-062-01.webp", alt: "Vault κάτω από Σκάλα — 3" },
+      { src: "/gallery/ergo-043-01.webp", alt: "Vault κάτω από Σκάλα — 4" },   
+      { src: "/gallery/ergo-057-01.webp", alt: "Vault κάτω από Σκάλα — 5" },
     ],
   },
   {
@@ -127,6 +106,7 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-058-01.webp",
     images: [
       { src: "/gallery/ergo-058-01.webp", alt: "Τετράφυλλη Γκρι — 1" },
+      { src: "/gallery/ergo-042-01.webp", alt: "Τετράφυλλη Γκρι — 2" },
     ],
   },
   {
@@ -137,18 +117,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-060-01.webp", alt: "Ντουλάπα Διαδρόμου — 1" },
       { src: "/gallery/ergo-047-02.webp", alt: "Ντουλάπα Διαδρόμου — 2" },
-      { src: "/gallery/ergo-046-02.webp", alt: "Ντουλάπα Διαδρόμου — 3" },
-    ],
-  },
-  {
-    id: "ergo-062",
-    title: "Ράφια Σκάλας",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-062-01.webp",
-    images: [
-      { src: "/gallery/ergo-062-01.webp", alt: "Ράφια Σκάλας — 1" },
-      { src: "/gallery/ergo-039-02.webp", alt: "Ράφια Σκάλας — 2" },
-      { src: "/gallery/ergo-045-03.webp", alt: "Ράφια Σκάλας — 3" },
     ],
   },
   {
