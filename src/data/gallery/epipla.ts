@@ -27,9 +27,8 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-009",
     title: "Διπλός Νιπτήρας",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-009-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-009-01.webp", alt: "Διπλός Νιπτήρας — 1" },
     ],
   },
   {
@@ -53,10 +52,12 @@ export const epiplaProjects: GalleryProject[] = [
   },
   {
     id: "ergo-022",
-    title: "Κουκέτες σε Δρυ",
+    title: "Walk in closet",
     category: "Έπιπλα",
-    cover: "",
+    cover: "/gallery/ergo-015-02.webp",
     images: [
+      { src: "/gallery/ergo-015-02.webp", alt: "Walk in closet — 1" },
+      { src: "/gallery/ergo-069-01.webp", alt: "Walk in closet — 2" },
     ],
   },
   {

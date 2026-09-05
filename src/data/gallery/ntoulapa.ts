@@ -124,9 +124,8 @@ export const ntoulapaProjects: GalleryProject[] = [
     id: "ergo-069",
     title: "Συρτάρια σε Γραμμή",
     category: "Ντουλάπα",
-    cover: "/gallery/ergo-069-01.webp",
+    cover: "",
     images: [
-      { src: "/gallery/ergo-069-01.webp", alt: "Συρτάρια σε Γραμμή — 1" },
     ],
   }
 ];

@@ -19,6 +19,7 @@ export const eidikesProjects: GalleryProject[] = [
     cover: "/gallery/ergo-006-02.webp",
     images: [
       { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
+      { src: "/gallery/ergo-009-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
     ],
   },
   {
@@ -45,13 +46,10 @@ export const eidikesProjects: GalleryProject[] = [
     id: "ergo-015",
     title: "Ξύλινη Υφή Τοίχου",
     category: "Ειδικές κατασκευές",
-    cover: "/gallery/ergo-015-02.webp",
+    cover: "/gallery/ergo-005-03.webp",
     images: [
-      { src: "/gallery/ergo-015-02.webp", alt: "Ξύλινη Υφή Τοίχου — 1" },
       { src: "/gallery/ergo-005-03.webp", alt: "Ξύλινη Υφή Τοίχου — 2" },
-      { src: "/gallery/ergo-017-01.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
-      { src: "/gallery/ergo-017-02.webp", alt: "Ξύλινη Υφή Τοίχου — 4" },
-      { src: "/gallery/ergo-033-03.webp", alt: "Ξύλινη Υφή Τοίχου — 5" },
+      { src: "/gallery/ergo-033-03.webp", alt: "Ξύλινη Υφή Τοίχου — 3" },
     ],
   },
   {
@@ -69,13 +67,14 @@ export const eidikesProjects: GalleryProject[] = [
     id: "ergo-027",
     title: "Οροφή με Ρυθμό",
     category: "Ειδικές κατασκευές",
-    cover: "/gallery/ergo-012-03.webp",
+    cover: "/gallery/ergo-017-01.webp",
     images: [
-
+      { src: "/gallery/ergo-017-01.webp", alt: "Οροφή με Ρυθμό — 1" },
       { src: "/gallery/ergo-012-03.webp", alt: "Οροφή με Ρυθμό — 2" },
       { src: "/gallery/ergo-032-02.webp", alt: "Οροφή με Ρυθμό — 3" },
       { src: "/gallery/ergo-050-02.webp", alt: "Οροφή με Ρυθμό — 4" },
-      { src: "/gallery/ergo-047-01.webp", alt: "Οροφή με Ρυθμό — 5" },
+      { src: "/gallery/ergo-017-02.webp", alt: "Οροφή με Ρυθμό — 5" },
+      { src: "/gallery/ergo-047-01.webp", alt: "Οροφή με Ρυθμό — 6" },
     ],
   },
   {
