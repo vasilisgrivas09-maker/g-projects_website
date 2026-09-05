@@ -62,24 +62,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-042",
-    title: "Ανοιχτό Γκρι",
-    category: "Ντουλάπα",
-    cover: "",
-    images: [
-    ],
-  },
-  {
-    id: "ergo-050",
-    title: "Ντουλάπα Δρυός",
-    category: "Ντουλάπα",
-    cover: "/gallery/ergo-050-01.webp",
-    images: [
-      { src: "/gallery/ergo-050-01.webp", alt: "Ντουλάπα Δρυός — 1" },
-      { src: "/gallery/ergo-005-04.webp", alt: "Ντουλάπα Δρυός — 2" },
-    ],
-  },
-  {
     id: "ergo-056",
     title: "Vault κάτω από Σκάλα",
     category: "Ντουλάπα",
@@ -119,14 +101,6 @@ export const ntoulapaProjects: GalleryProject[] = [
     cover: "/gallery/ergo-067-01.webp",
     images: [
       { src: "/gallery/ergo-067-01.webp", alt: "Walk-in σε Δρυ — 1" },
-    ],
-  },
-  {
-    id: "ergo-069",
-    title: "Συρτάρια σε Γραμμή",
-    category: "Ντουλάπα",
-    cover: "",
-    images: [
     ],
   },
   {

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Logo from '@/components/layout/Logo';
 import { PHONE, PHONE_DISPLAY, SOCIAL_LINKS } from '@/data/site';
 
 const footerLinks = [
@@ -14,11 +13,12 @@ export default function Footer() {
       <div className="container px-4 sm:px-6 lg:px-8 py-14 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
           <div className="md:col-span-5">
-            <Link href="/" className="inline-flex items-center gap-3 group mb-5">
-              <Logo size="sm" />
-              <span className="font-manrope font-semibold text-sm tracking-widest group-hover:text-[#b79a69] transition-colors">
-                <span className="text-[#b79a69] text-lg">G</span> PROJECTS
-              </span>
+            <Link
+              href="/"
+              className="group mb-5 inline-flex items-baseline font-manrope text-sm font-bold tracking-[0.22em] text-white transition-colors hover:text-[#b79a69]"
+            >
+              <span className="text-2xl leading-none text-[#b79a69]">G</span>
+              <span className="ml-1.5">PROJECTS</span>
             </Link>
             <p className="text-sm leading-relaxed max-w-sm mb-3">
               Εσωτερικός σχεδιασμός, custom έπιπλα και ολική ανακαίνιση —

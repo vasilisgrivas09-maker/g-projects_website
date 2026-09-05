@@ -58,12 +58,4 @@ export const epiplaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-047-01.webp", alt: "Λευκή Συρταριέρα — 2" },
     ],
   },
-  {
-    id: "ergo-059",
-    title: "Σύνθεση Εισόδου",
-    category: "Έπιπλα",
-    cover: "",
-    images: [
-    ],
-  },
 ];

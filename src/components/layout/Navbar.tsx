@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import Logo from "@/components/layout/Logo";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { PHONE, PHONE_DISPLAY, SOCIAL_LINKS } from "@/data/site";
 
@@ -15,7 +14,7 @@ const navLinks = [
   { href: "/contact", label: "Επικοινωνία" },
 ];
 
-/** Desktop nav omits the home link — the logo covers it */
+/** Desktop nav omits the home link — brand wordmark covers it */
 const desktopLinks = navLinks.filter((link) => link.href !== "/");
 
 const panelVariants = {
@@ -90,12 +89,14 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
       >
         <div className="container px-4 sm:px-6 lg:px-8 py-4 md:py-2">
           <div className="flex items-center justify-between h-16 lg:h-24">
-            <Link href="/" className="flex items-center gap-3 lg:gap-4 group">
-              <Logo size="md" />
-              <span className="text-white font-manrope font-semibold text-sm lg:text-base tracking-widest group-hover:text-[#b79a69] transition-colors">
-                <span className="text-[#b79a69] text-lg lg:text-2xl">G</span>{" "}
-                PROJECTS
+            <Link
+              href="/"
+              className="group inline-flex items-baseline font-manrope text-base font-bold tracking-[0.22em] text-white transition-colors hover:text-[#b79a69] sm:text-lg lg:text-xl"
+            >
+              <span className="text-2xl leading-none text-[#b79a69] sm:text-3xl lg:text-4xl">
+                G
               </span>
+              <span className="ml-1.5">PROJECTS</span>
             </Link>
 
             <button
@@ -118,7 +119,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
               />
             </button>
 
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-9">
               {desktopLinks.map((link) => {
                 const isActive = pathname.startsWith(link.href);
                 return (
@@ -126,7 +127,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
                     key={link.href}
                     href={link.href}
                     aria-current={isActive ? "page" : undefined}
-                    className={`relative text-sm font-semibold tracking-widest uppercase transition-colors after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-px after:bg-[#b79a69] after:transition-all hover:text-[#b79a69] hover:after:w-full ${
+                    className={`relative text-[15px] font-bold tracking-[0.2em] uppercase transition-colors after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:bg-[#b79a69] after:transition-all hover:text-[#b79a69] hover:after:w-full ${
                       isActive
                         ? "text-[#b79a69] after:w-full"
                         : "text-white after:w-0"
@@ -156,8 +157,9 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
             className="fixed inset-0 z-[60] flex h-full flex-col overflow-y-auto bg-[#171717] px-6 pb-10 pt-5 text-white lg:hidden"
           >
             <div className="flex items-center justify-between">
-              <span className="font-manrope text-sm font-semibold tracking-widest">
-                <span className="text-lg text-[#b79a69]">G</span> PROJECTS
+              <span className="inline-flex items-baseline font-manrope text-base font-bold tracking-[0.22em]">
+                <span className="text-2xl leading-none text-[#b79a69]">G</span>
+                <span className="ml-1.5">PROJECTS</span>
               </span>
               <button
                 type="button"
@@ -191,7 +193,7 @@ export default function Navbar({ solid = false }: { solid?: boolean }) {
                       className="group block border-b border-white/10 py-5 focus-visible:outline-none"
                     >
                       <span
-                        className={`font-serif text-3xl transition-colors group-hover:text-[#b79a69] group-focus-visible:text-[#b79a69] ${
+                        className={`font-serif text-4xl font-medium transition-colors group-hover:text-[#b79a69] group-focus-visible:text-[#b79a69] ${
                           isActive ? "text-[#b79a69]" : "text-white"
                         }`}
                       >

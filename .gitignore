@@ -31,6 +31,8 @@ public/gallery.updated/
 public/gallery-opt/
 public/gallery-restore/
 public/gallery/.tmp-out/
+.backup/
+.tools/
 
 # debug
 npm-debug.log*

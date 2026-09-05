@@ -20,14 +20,6 @@ export const kouzinaProjects: GalleryProject[] = [
     ],
   },
   {
-    id: "ergo-018",
-    title: "Θερμή Δρυς",
-    category: "Κουζίνα",
-    cover: "",
-    images: [
-    ],
-  },
-  {
     id: "ergo-025",
     title: "Κάβα & Εστία",
     category: "Κουζίνα",
@@ -47,22 +39,6 @@ export const kouzinaProjects: GalleryProject[] = [
       { src: "/gallery/ergo-026-01.webp", alt: "Ανοιχτή Τραπεζαρία — 1" },
       { src: "/gallery/ergo-018-01.webp", alt: "Ανοιχτή Τραπεζαρία — 2" },
       { src: "/gallery/ergo-030-01.webp", alt: "Ανοιχτή Τραπεζαρία — 3" },
-    ],
-  },
-  {
-    id: "ergo-028",
-    title: "Γωνιακή Δρυς",
-    category: "Κουζίνα",
-    cover: "",
-    images: [
-    ],
-  },
-  {
-    id: "ergo-039",
-    title: "Δρυς & Γκρι",
-    category: "Κουζίνα",
-    cover: "",
-    images: [
     ],
   },
   {
