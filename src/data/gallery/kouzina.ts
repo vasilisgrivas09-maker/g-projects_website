@@ -35,6 +35,7 @@ export const kouzinaProjects: GalleryProject[] = [
     images: [
       { src: "/gallery/ergo-025-01.webp", alt: "Κάβα & Εστία — 1" },
       { src: "/gallery/ergo-062-02.webp", alt: "Κάβα & Εστία — 2" },
+      { src: "/gallery/ergo-033-04.webp", alt: "Κάβα & Εστία — 3" },
     ],
   },
   {
