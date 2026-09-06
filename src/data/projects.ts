@@ -10,42 +10,42 @@ export type FeaturedProject = {
 /** Homepage featured tiles — /public/images (portfolio lives in gallery/) */
 export const featuredProjects: FeaturedProject[] = [
   {
-    src: "/images/saloni.webp",
-    alt: "Σαλόνι",
-    category: "Έπιπλα",
-    href: "/projects/epipla",
-    span: "hero",
-  },
-  {
     src: "/images/kouzina.webp",
     alt: "Κουζίνα",
     category: "Κουζίνες",
     href: "/projects/kouzines",
+    span: "hero",
+  },
+  {
+    src: "/images/pergkola.webp",
+    alt: "Πέργκολα",
+    category: "Πέργκολα",
+    href: "/projects/pergkola",
     span: "side",
   },
   {
     src: "/images/krevati.webp",
     alt: "Κρεβατοκάμαρα",
-    category: "Ντουλάπες",
-    href: "/projects/ntoulapes",
+    category: "Είδικες κατασκευές",
+    href: "/projects/eidikes-kataskeves",
     span: "side",
   },
   {
-    src: "/images/kathistiko.webp",
-    alt: "Καθιστικό",
+    src: "/images/epipla.mpanio.webp",
+    alt: "Έπιπλο νηπτήρα",
     category: "Έπιπλα",
     href: "/projects/epipla",
   },
   {
-    src: "/images/ntoulapa.webp",
+    src: "/images/ntoulapa-kathreftis.webp",
     alt: "Ντουλάπα",
     category: "Ντουλάπες",
     href: "/projects/ntoulapes",
   },
   {
-    src: "/images/domatio.webp",
-    alt: "Δωμάτιο",
-    category: "Έπιπλα",
-    href: "/projects/epipla",
+    src: "/images/eidiki-kataskevi.webp",
+    alt: "Κουκιέτες",
+    category: "Είδικες κατασκευές",
+    href: "/projects/eidikes-kataskeves",
   },
 ];

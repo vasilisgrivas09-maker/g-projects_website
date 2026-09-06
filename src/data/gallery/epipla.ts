@@ -14,9 +14,9 @@ export const epiplaProjects: GalleryProject[] = [
     id: "ergo-006",
     title: "Ξύλινο Φίλτρο Φωτός",
     category: "Έπιπλα",
-    cover: "/gallery/ergo-006-02.webp",
+    cover: "/gallery/ergo-006-027.webp",
     images: [
-      { src: "/gallery/ergo-006-02.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
+      { src: "/gallery/ergo-006-027.webp", alt: "Ξύλινο Φίλτρο Φωτός — 1" },
       { src: "/gallery/ergo-009-01.webp", alt: "Ξύλινο Φίλτρο Φωτός — 2" },
     ],
   },

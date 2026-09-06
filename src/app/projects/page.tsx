@@ -28,7 +28,7 @@ export default function ProjectsPage() {
           </h1>
           <p className="text-gray-500 text-base md:text-lg leading-relaxed">
             {galleryProjects.length} έργα · {galleryImageCount} φωτογραφίες —
-            διαλέξτε κατηγορία για να δείτε τα σχετικά έργα.
+            Επιλέξτε κατηγορία για να περιηγηθείτε στα έργα μας.
           </p>
         </header>
         <CategoryCards />

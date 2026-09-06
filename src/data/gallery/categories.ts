@@ -1,9 +1,9 @@
 import type { GalleryCategory } from "./types";
 
 export type CategorySlug =
-  | "portes"
-  | "pergkoles"
   | "kouzines"
+  | "pergkoles"
+  | "portes"
   | "ntoulapes"
   | "epipla"
   | "eidikes-kataskeves";
@@ -23,21 +23,20 @@ export type GalleryCategoryMeta = {
   metaTitle: string;
   metaDescription: string;
 };
-
 /** Card + page order on /projects */
 export const galleryCategoryMeta: GalleryCategoryMeta[] = [
   {
-    slug: "portes",
-    category: "Πόρτα",
-    label: "Πόρτες",
-    cover: "/gallery/category-porta.webp",
-    tagline: "Εσωτερικές, θωρακισμένες και statement είσοδοι",
+    slug: "kouzines",
+    category: "Κουζίνα",
+    label: "Κουζίνες",
+    cover: "/gallery/category-kouzina.webp",
+    tagline: "Μελέτη, κατασκευή και τοποθέτηση",
     intro:
-      "Πόρτες εσωτερικού και εισόδου σε μασίφ ξύλο, λάκα και καπλαμά — σχεδιασμένες στις διαστάσεις του χώρου σας.",
-    metaTitle: "Πόρτες",
+      "Κουζίνες κατά παραγγελία, από τη μελέτη της κάτοψης και την επιλογή υλικών μέχρι την τοποθέτηση και τα φινιρίσματα.",
+    metaTitle: "Κουζίνες",
     metaDescription:
-      "Έργα πορτών από την G Projects — εσωτερικές πόρτες, είσοδοι και ντουλάπια σε μασίφ ξύλο, λάκα και καπλαμά. Πανελλαδικά.",
-  },
+      "Έργα κουζίνας από την G Projects — custom κουζίνες με μελέτη, κατασκευή και τοποθέτηση. Πανελλαδικά.",
+  }, 
   {
     slug: "pergkoles",
     category: "Πέργκολα",
@@ -51,16 +50,16 @@ export const galleryCategoryMeta: GalleryCategoryMeta[] = [
       "Έργα πέργκολας από την G Projects — κατασκευές σκίασης για βεράντες, κήπους και roof gardens. Πανελλαδικά.",
   },
   {
-    slug: "kouzines",
-    category: "Κουζίνα",
-    label: "Κουζίνες",
-    cover: "/gallery/category-kouzina.webp",
-    tagline: "Μελέτη, κατασκευή και τοποθέτηση",
+    slug: "portes",
+    category: "Πόρτα",
+    label: "Πόρτες",
+    cover: "/gallery/category-porta.webp",
+    tagline: "Εσωτερικές, θωρακισμένες και statement είσοδοι",
     intro:
-      "Κουζίνες κατά παραγγελία, από τη μελέτη της κάτοψης και την επιλογή υλικών μέχρι την τοποθέτηση και τα φινιρίσματα.",
-    metaTitle: "Κουζίνες",
+      "Πόρτες εσωτερικού και εισόδου σε μασίφ ξύλο, λάκα και καπλαμά — σχεδιασμένες στις διαστάσεις του χώρου σας.",
+    metaTitle: "Πόρτες",
     metaDescription:
-      "Έργα κουζίνας από την G Projects — custom κουζίνες με μελέτη, κατασκευή και τοποθέτηση. Πανελλαδικά.",
+      "Έργα πορτών από την G Projects — εσωτερικές πόρτες, είσοδοι και ντουλάπια σε μασίφ ξύλο, λάκα και καπλαμά. Πανελλαδικά.",
   },
   {
     slug: "ntoulapes",
