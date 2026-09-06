@@ -19,20 +19,20 @@ export const featuredProjects: FeaturedProject[] = [
   {
     src: "/images/pergkola.webp",
     alt: "Πέργκολα",
-    category: "Πέργκολα",
-    href: "/projects/pergkola",
+    category: "Πέργκολες",
+    href: "/projects/pergkoles",
     span: "side",
   },
   {
     src: "/images/krevati.webp",
     alt: "Κρεβατοκάμαρα",
-    category: "Είδικες κατασκευές",
+    category: "Ειδικές κατασκευές",
     href: "/projects/eidikes-kataskeves",
     span: "side",
   },
   {
-    src: "/images/epipla.mpanio.webp",
-    alt: "Έπιπλο νηπτήρα",
+    src: "/images/epipla-mpanio.webp",
+    alt: "Έπιπλο νιπτήρα",
     category: "Έπιπλα",
     href: "/projects/epipla",
   },
@@ -44,8 +44,8 @@ export const featuredProjects: FeaturedProject[] = [
   },
   {
     src: "/images/eidiki-kataskevi.webp",
-    alt: "Κουκιέτες",
-    category: "Είδικες κατασκευές",
+    alt: "Κουκέτα",
+    category: "Ειδικές κατασκευές",
     href: "/projects/eidikes-kataskeves",
   },
 ];

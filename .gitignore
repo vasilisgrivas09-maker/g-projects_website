@@ -47,6 +47,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local notes / agent plans
+*.plan.md
+tmrw_*.plan.md
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

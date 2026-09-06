@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "gallery:rebuild": "node scripts/rebuild-gallery-ts.mjs",
     "gallery:thumbs": "node scripts/generate-gallery-thumbs.mjs",
+    "gallery:upscale": "node scripts/upscale-gallery.mjs",
     "images:compress": "node scripts/compress-images.mjs"
   },
   "dependencies": {
